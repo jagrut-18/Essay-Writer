@@ -4,21 +4,17 @@
       <p id="header">Essayister</p>
     </div>
     <Topic topicText="To understand the most important characteristics of a society, one must study its major cities. Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position." />
-    <img alt="Vue logo" src="./assets/logo.png" />
     <WritingPad/>
-    <HelloWorld msg="Welcome to Your Vueebbbbaaae.js App" />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
 import Topic from "./components/Topic.vue";
 import WritingPad from "./components/WritingPad.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
     Topic,
     WritingPad,
   }

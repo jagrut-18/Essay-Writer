@@ -53,6 +53,7 @@
     resize: none;
     background-color: transparent;
     border-radius: 7px;
-    padding: 10px 20px;
+    padding: 0;
+    margin: 10px;
 }
 </style>

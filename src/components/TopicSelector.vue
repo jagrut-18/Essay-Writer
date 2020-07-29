@@ -37,11 +37,11 @@
 #selector_div {
     background-color: white;
     box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.05);
-    width: 100%;
     height: 500px;
     overflow-x: hidden;
     overflow-y: auto;
     border-radius: 7px;
+    width: 100%;
 }
 
 #selector_item {

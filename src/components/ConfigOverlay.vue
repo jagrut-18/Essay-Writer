@@ -4,10 +4,13 @@
       <div id="header">Essayister</div>
     </div>
     <div id="config_divs">
+        <div id="default_config_divs">
         <SelectExamDropDown/>
-        <TopicOptions/>
+        <TopicOptions @topicOptionChanged="topicOptionChanged"/>
         <TimeLimit/>
-        <button id="write_btn">Start Writing</button>
+        <button @click="startWriting" id="write_btn">Start Writing</button>
+    </div>
+    <div id="topic_selector_div"><TopicSelector/></div>
     </div>
     </div>
 </template>
@@ -16,13 +19,30 @@
     import SelectExamDropDown from './SelectExamDropDown.vue';
     import TopicOptions from './TopicOptions.vue';
     import TimeLimit from './TimeLimit.vue';
+    import TopicSelector from './TopicSelector.vue';
     export default {
         name: 'ConfigOverlay',
         components: {
             SelectExamDropDown,
             TopicOptions,
-            TimeLimit
+            TimeLimit,
+            TopicSelector
         },
+        methods: {
+            topicOptionChanged(newTopic){
+                var topicSelector = document.getElementById("topic_selector_div");
+                if(newTopic == "from_pool"){
+                var screenWidth = window.innerWidth;
+                topicSelector.className = "animate_selector";
+                topicSelector.style.width = screenWidth*0.6.toString() + "px";
+                topicSelector.style.opacity = "1";  
+                }
+                else {
+                    topicSelector.style.width = "0px";
+                    topicSelector.style.opacity = "0";
+                }
+            }
+        }
     }
 </script>
 
@@ -42,6 +62,12 @@
 }
 #config_divs {
     margin: auto;
+    min-width: min-content;
+    display: flex;
+    flex-direction: row;
+}
+#default_config_divs {
+    margin-right: 5%;
 }
 #write_btn {
     color: white;
@@ -57,8 +83,21 @@
     box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.08);
     cursor: pointer;
 }
+#topic_selector_div {
+    width: 0;
+    min-width: 60%;
+    opacity: 0;
+}
+.animate_selector {
+    animation: slide-in 0.7s ease-in-out forwards;
+}
 
-
-
-
+@keyframes slide-in {
+  from {
+    transform: translateX(60%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
 </style>

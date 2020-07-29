@@ -1,15 +1,15 @@
 <template>
     <div id="topic_options_div">
       <div id="option_header">Topic</div>
-        <div @click="selectOption" class="topic_option">
+        <div @click="selectOption" class="topic_option" id="from_pool_option">
           <div class="radio_btn"></div>
           <div class="option_title">From Pool</div>
         </div>
-        <div @click="selectOption" class="topic_option">
+        <div @click="selectOption" class="topic_option" id="random_option">
           <div class="radio_btn active"></div>
           <div class="option_title">Random</div>
         </div>
-        <div @click="selectOption" class="topic_option">
+        <div @click="selectOption" class="topic_option" id="none_option">
           <div class="radio_btn"></div>
           <div class="option_title">None</div>
         </div>
@@ -26,6 +26,13 @@
               radio.className = "radio_btn";
             });
             event.target.firstElementChild.className += " active";
+            this.selectedOption = event.target.id.replace('_option', '');
+            this.$emit('topicOptionChanged', this.selectedOption);
+          }
+        },
+        data(){
+          return {
+            selectedOption: "random",
           }
         }
     }

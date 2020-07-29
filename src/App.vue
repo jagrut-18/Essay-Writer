@@ -1,16 +1,13 @@
 <template>
   <div id="app">
-    <ConfigOverlay/>
+    <ConfigOverlay @topicChanged="changeSelectedTopic" @selectedExam="changeSelectedExam" />
     <div id="header_bar">
       <div id="header">Essayister</div>
     </div>
-    <div id="left_div">
-      
-    </div>
+    <div id="left_div"></div>
     <div id="right_div">
-      
-    <Topic topicText="To understand the most important characteristics of a society, one must study its major cities. Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position." />
-    <WritingPad/>
+      <Topic :topicText="selectedTopic" />
+      <WritingPad />
     </div>
   </div>
 </template>
@@ -22,11 +19,33 @@ import ConfigOverlay from "./components/ConfigOverlay.vue";
 
 export default {
   name: "App",
+  data() {
+    return {
+      selectedExam: "GRE",
+      selectedTopic: "",
+    };
+  },
   components: {
     Topic,
     WritingPad,
-    ConfigOverlay
-  }
+    ConfigOverlay,
+  },
+  methods: {
+    changeSelectedExam(newSelectedExam) {
+      console.log(newSelectedExam);
+      this.selectedExam = newSelectedExam;
+    },
+    changeSelectedTopic(newSelectedTopic) {
+      console.log(newSelectedTopic);
+      console.log(this.selectedExam);
+      if (this.selectedExam === "GRE") {
+        this.selectedTopic =
+          newSelectedTopic.text + " " + newSelectedTopic.question;
+      } else {
+        this.selectedTopic = newSelectedTopic;
+      }
+    },
+  },
 };
 </script>
 
@@ -37,8 +56,9 @@ export default {
   font-family: "Montserrat", sans-serif;
 }
 
-body, html {
-  background-color: #F4FFF7;
+body,
+html {
+  background-color: #f4fff7;
   margin: 0;
 }
 #app {

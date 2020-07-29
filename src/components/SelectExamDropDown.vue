@@ -9,7 +9,7 @@
             <div id="exam_dropdown" class="dropdown-content">
                 <a class="dropdown_item active" @click="selectExam">GRE</a>
                 <a class="dropdown_item" @click="selectExam">GMAT</a>
-                <a class="dropdown_item" @click="selectExam">CAT</a>
+                <a class="dropdown_item" @click="selectExam">IELTS</a>
             </div>
         </div>
     </div>
@@ -35,6 +35,7 @@
                 });
                 event.target.className += ' active';
                 this.selectedExam = event.target.innerHTML;
+                this.$emit("changeExam", this.selectedExam);
                 this.toggleDropDown();
             }
         }

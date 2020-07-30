@@ -6,7 +6,7 @@
     </div>
     <div id="left_div"></div>
     <div id="right_div">
-      <Topic :topicText="selectedTopic" />
+      <Topic :topicText="selectedTopic" id="main_topic" />
       <WritingPad />
     </div>
   </div>

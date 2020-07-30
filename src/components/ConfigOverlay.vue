@@ -7,7 +7,7 @@
       <div id="default_config_divs">
         <SelectExamDropDown @changeExam="changeExam" />
         <TopicOptions @topicOptionChanged="topicOptionChanged" />
-        <TimeLimit />
+        <TimeLimit @changeTimeLimit="changeTimeLimit" />
         <button @click="startWriting" id="write_btn">Start Writing</button>
       </div>
       <div id="topic_selector_div">
@@ -33,6 +33,7 @@ export default {
   data() {
     return {
       selectedExam: "GRE",
+      timeLimit: 30,
     };
   },
   methods: {
@@ -55,9 +56,42 @@ export default {
     startWriting() {
       var configDiv = document.getElementById("config_div");
       configDiv.style.display = "none";
+      var current_time = Date.parse(new Date());
+      var deadline = new Date(current_time + this.timeLimit * 60 * 1000);
+      this.run_clock("toolbar_time_limit", deadline);
     },
     topicChanged(newTopic) {
       this.$emit("topicChanged", newTopic);
+    },
+    changeTimeLimit(newTimeLimit) {
+      this.timeLimit = newTimeLimit;
+    },
+    time_remaining(endtime) {
+      var t = Date.parse(endtime) - Date.parse(new Date());
+      var seconds = Math.floor((t / 1000) % 60);
+      var minutes = Math.floor((t / 1000 / 60) % 60);
+      var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+      var days = Math.floor(t / (1000 * 60 * 60 * 24));
+      return {
+        total: t,
+        days: days,
+        hours: hours,
+        minutes: minutes,
+        seconds: seconds,
+      };
+    },
+    run_clock(id, endtime) {
+      var self = this;
+      var clock = document.getElementById(id);
+      function update_clock() {
+        var t = self.time_remaining(endtime);
+        clock.innerHTML = t.minutes + " : " + t.seconds;
+        if (t.total <= 0) {
+          clearInterval(timeinterval);
+        }
+      }
+      update_clock();
+      var timeinterval = setInterval(update_clock, 1000);
     },
   },
 };

@@ -8,8 +8,8 @@
 export default {
   name: "Topic",
   props: {
-    topicText: String
-  }
+    topicText: String,
+  },
 };
 </script>
 
@@ -20,7 +20,7 @@ export default {
   padding: 10px;
   margin: 20px 0 25px 0;
 }
-h3{
+h3 {
   font-size: 16px;
   font-weight: 400;
 }

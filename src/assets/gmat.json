@@ -1,0 +1,584 @@
+{
+  "essays": [
+    {
+      "text": "The following appeared as part of an annual report sent to stockholders by Olympic Foods, a processor of frozen foods",
+      "question": "Over time, the costs of processing go down because as organizations learn how to do things better, they become more efficient. In color film processing, for example, the cost of a 3-by-5-inch print fell from 50 cents for five-day service in 1970 to 20 cents for one-day service in 1984. The same principle applies to the processing of food. And since Olympic Foods will soon celebrate its 25th birthday, we can expect that our long experience will enable us to minimize costs and thus maximize profits."
+    },
+    {
+      "text": " The following appeared in a memorandum from the business department of the Apogee Company",
+      "question": "When the Apogee Company had all its operations in one location, it was more profitable than it is today. Therefore, the Apogee Company should close down its field offices and conduct all its operations from a single location. Such centralization would improve profitability by cutting costs and helping the company maintain better supervision of all employees."
+    },
+    {
+      "text": " The following appeared in a memorandum issued by a large city\u2019s council on the arts",
+      "question": "In a recent citywide poll, 15 percent more residents said that they watch television programs about the visual arts than was the case in a poll conducted five years ago. During these past five years, the number of people visiting our city\u2019s art museums has increased by a similar percentage. Since the corporate funding that supports public television, where most of the visual arts programs appear, is now being threatened with severe cuts, we can expect that attendance at our city\u2019s art museums will also start to decrease. Thus some of the city\u2019s funds for supporting the arts should be reallocated to public television."
+    },
+    {
+      "text": " The following appeared in an announcement issued by the publisher of The Mercury, a weekly newspaper",
+      "question": "Since a competing lower-priced newspaper, The Bugle, was started five years ago, The Mercury\u2019s circulation has declined by 10,000 readers. The best way to get more people to read The Mercury is to reduce its price below that of The Bugle, at least until circulation increases to former levels. The increased circulation of The Mercury will attract more businesses to buy advertising space in the paper."
+    },
+    {
+      "text": "   The following appeared in a report presented for discussion at a meeting of the directors of a company that manufactures parts for heavy machinery",
+      "question": "The falling revenues that the company is experiencing coincide with delays in manufacturing. These delays, in turn, are due in large part to poor planning in purchasing metals. Consider further that the manager of the department that handles purchasing of raw materials has an excellent background in general business, psychology, and sociology, but knows little about the properties of metals. The company should, therefore, move the purchasing manager to the sales department and bring in a scientist from the research division to be manager of the purchasing department."
+    },
+    {
+      "text": "  The following appeared as part of an article in a magazine devoted to regional life",
+      "question": "Corporations should look to the city of Helios when seeking new business opportunities or a new location. Even in the recent recession, Helios\u2019s unemployment rate was lower than the regional average. It is the industrial center of the region, and historically it has provided more than its share of the region\u2019s manufacturing jobs. In addition, Helios is attempting to expand its economic base by attracting companies that focus on research and development of innovative technologies."
+    },
+    {
+      "text": "  The following appeared in the health section of a magazine on trends and lifestyles",
+      "question": "People who use the artificial sweetener aspartame are better off consuming sugar, since aspartame can actually contribute to weight gain rather than weight loss. For example, high levels of aspartame have been shown to trigger a craving for food by depleting the brain of a chemical that registers satiety, or the sense of being full. Furthermore, studies suggest that sugars, if consumed after at least 45 minutes of continuous exercise, actually enhance the body\u2019s ability to burn fat. Consequently, those who drink aspartame-sweetened juices after exercise will also lose this calorie-burning benefit. Thus it appears that people consuming aspartame rather than sugar are unlikely to achieve their dietary goals."
+    },
+    {
+      "text": "  The following appeared in the editorial section of a corporate newsletter",
+      "question": "The common notion that workers are generally apathetic about management issues is false, or at least outdated: a recently published survey indicates that 79 percent of the nearly 1,200 workers who responded to survey questionnaires expressed a high level of interest in the topics of corporate restructuring and redesign of benefits programs."
+    },
+    {
+      "text": "   The following appeared in the opinion column of a financial magazine",
+      "question": "On average, middle-aged consumers devote 39 percent of their retail expenditure to department store products and services, while for younger consumers the average is only 25 percent. Since the number of middle-aged people will increase dramatically within the next decade, department stores can expect retail sales to increase significantly during that period. Furthermore, to take advantage of the trend, these stores should begin to replace some of those products intended to attract the younger consumer with products intended to attract the middle-aged consumer."
+    },
+    {
+      "text": "  The following appeared in the editorial section of a local newspaper",
+      "question": "This past winter, 200 students from Waymarsh State College traveled to the state capitol building to protest against proposed cuts in funding for various state college programs. The other 12,000 Waymarsh students evidently weren\u2019t so concerned about their education: they either stayed on campus or left for winter break. Since the group who did not protest is far more numerous, it is more representative of the state\u2019s college students than are the protesters. Therefore the state legislature need not heed the appeals of the protesting students."
+    },
+    {
+      "text": "  The following appeared in the editorial section of a local newspaper",
+      "question": "In the first four years that Montoya has served as mayor of the city of San Perdito, the population has decreased and the unemployment rate has increased. Two businesses have closed for each new business that has opened. Under Varro, who served as mayor for four years before Montoya, the unemployment rate decreased and the population increased. Clearly, the residents of San Perdito would be best served if they voted Montoya out of office and reelected Varro."
+    },
+    {
+      "text": "  The following appeared as part of a promotional campaign to sell advertising space in the Daily Gazette to grocery stores in the Marston area",
+      "question": "Advertising the reduced price of selected grocery items in the Daily Gazette will help you increase your sales. Consider the results of a study conducted last month. Thirty sale items from a store in downtown Marston were advertised in The Gazette for four days. Each time one or more of the 30 items was purchased, clerks asked whether the shopper had read the ad. Two-thirds of the 200 shoppers asked answered in the affirmative. Furthermore, more than half the customers who answered in the affirmative spent over $100 at the store."
+    },
+    {
+      "text": " The following appeared as part of a campaign to sell advertising time on a local radio station to local businesses",
+      "question": "The Cumquat Caf\u00e9 began advertising on our local radio station this year and was delighted to see its business increase by 10 percent over last year\u2019s totals. Their success shows you how you can use radio advertising to make your business more profitable."
+    },
+    {
+      "text": "   The following appeared as part of a newspaper editorial",
+      "question": "Two years ago Nova High School began to use interactive computer instruction in three academic subjects. The school dropout rate declined immediately, and last year\u2019s graduates have reported some impressive achievements in college. In future budgets the school board should use a greater portion of the available funds to buy more computers, and all schools in the district should adopt interactive computer instruction throughout the curriculum."
+    },
+    {
+      "text": " The following appeared as a part of an advertisement for Adams, who is seeking reelection as governor",
+      "question": "Reelect Adams, and you will be voting for proven leadership in improving the state\u2019s economy. Over the past year alone, 70 percent of the state\u2019s workers have had increases in their wages, 5,000 new jobs have been created, and six corporations have located their headquarters here. Most of the respondents in a recent poll said they believed that the economy is likely to continue to improve if Adams is reelected. Adams\u2019s opponent, Zebulon, would lead our state in the wrong direction, because Zebulon disagrees with many of Adams\u2019s economic policies."
+    },
+    {
+      "text": " The following appeared as part of an article in the education section of a Waymarsh city newspaper",
+      "question": "Throughout the last two decades, those who earned graduate degrees found it very difficult to get jobs teaching their academic specialties at the college level. Those with graduate degrees from Waymarsh University had an especially hard time finding such jobs. But better times are coming in the next decade for all academic job seekers, including those from Waymarsh. Demographic trends indicate that an increasing number of people will be reaching college age over the next 10 years; consequently, we can expect that the job market will improve dramatically for people seeking college-level teaching positions in their fields."
+    },
+    {
+      "text": " The following appeared in an article in a consumer-products magazine",
+      "question": "Two of today\u2019s best-selling brands of full-strength prescription medication for the relief of excess stomach acid, AcidEase and Pepticaid, are now available in milder nonprescription forms. Doctors have written 76 million more prescriptions for full-strength Acid-Ease than for full-strength Pepticaid. So people who need an effective but milder nonprescription medication for the relief of excess stomach acid should choose Acid-Ease."
+    },
+    {
+      "text": " The following is an excerpt from a memo written by the head of a governmental department",
+      "question": "Neither stronger ethics regulations nor stronger enforcement mechanisms are necessary to ensure ethical behavior by companies doing business with this department. We already have a code of ethics that companies doing business with this department are urged to abide by, and virtually all of these companies have agreed to follow it. We also know that the code is relevant to the current business environment because it was approved within the last year, and in direct response to specific violations committed by companies with which we were then working\u2014not in abstract anticipation of potential violations, as so many such codes are."
+    },
+    {
+      "text": "   The following appeared as part of an article in the travel section of a newspaper",
+      "question": "Over the past decade, the restaurant industry in the country of Spiessa has experienced unprecedented growth. This surge can be expected to continue in the coming years, fueled by recent social changes: personal incomes are rising, more leisure time is available, single-person households are more common, and people have a greater interest in gourmet food, as evidenced by a proliferation of publications on the subject."
+    },
+    {
+      "text": " The following appeared in an article in a health\u2013and\u2013fitness magazine",
+      "question": "Laboratory studies show that Saluda Natural Spring Water contains several of the minerals necessary for good health and that it is completely free of bacteria. Residents of Saluda, the small town where the water is bottled, are hospitalized less frequently than the national average. Even though Saluda Natural Spring Water may seem expensive, drinking it instead of tap water is a wise investment in good health."
+    },
+    {
+      "text": " The following appeared in a memorandum from the head of a human resources department at a major automobile manufacturing company to the company's managers",
+      "question": "Studies have found that employees of not-for-profit organizations and charities are often more highly motivated than employees of for-profit corporations to perform well at work when their performance is not being monitored or evaluated. Interviews with employees of not-for-profit organizations suggest that the reason for their greater motivation is the belief that their work helps to improve society. Because they believe in the importance of their work, they have personal reasons to perform well, even when no financial reward is present. Thus, if our corporation began donating a significant portion of its profits to humanitarian causes, our employees\u2019 motivation and productivity would increase substantially and our overall profits would increase as well."
+    },
+    {
+      "text": " The following appeared as part of an editorial in an industry newsletter",
+      "question": "While trucking companies that deliver goods pay only a portion of highway maintenance costs and no property tax on the highways they use, railways spend billions per year maintaining and upgrading their facilities. The government should lower the railroad companies\u2019 property taxes, since sending goods by rail is clearly a more appropriate mode of ground transportation than highway shipping. For one thing, trains consume only a third of the fuel a truck would use to carry the same load, making them a more cost-effective and environmentally sound mode of transport. Furthermore, since rail lines already exist, increases in rail traffic would not require building new lines at the expense of taxpaying citizens."
+    },
+    {
+      "text": "   The following appeared in the editorial section of a newspaper",
+      "question": "As public concern over drug abuse has increased, authorities have become more vigilant in their efforts to prevent illegal drugs from entering the country. Many drug traffickers have consequently switched from marijuana, which is bulky, or heroin, which has a market too small to justify the risk of severe punishment, to cocaine. Thus enforcement efforts have ironically resulted in an observed increase in the illegal use of cocaine."
+    },
+    {
+      "text": " The following appeared in a speech delivered by a member of the city council",
+      "question": "Twenty years ago, only half of the students who graduated from Einstein High School went on to attend a college or university. Today, two\u2013thirds of the students who graduate from Einstein do so. Clearly, Einstein has improved its educational effectiveness over the past two decades. This improvement has occurred despite the fact that the school\u2019s funding, when adjusted for inflation, is about the same as it was 20 years ago. Therefore, we do not need to make any substantial increase in the school\u2019s funding at this time."
+    },
+    {
+      "text": " The following appeared in a memo from the customer service division to the manager of Mammon Savings and Loan",
+      "question": "We believe that improved customer service is the best way for us to differentiate ourselves from competitors and attract new customers. We can offer our customers better service by reducing waiting time in teller lines from an average of six minutes to an average of three. By opening for business at 8:30 instead of 9:00, and by remaining open for an additional hour beyond our current closing time, we will be better able to accommodate the busy schedules of our customers. These changes will enhance our bank\u2019s image as the most customer-friendly bank in town and give us the edge over our competition."
+    },
+    {
+      "text": " The following appeared as part of an article in a magazine on lifestyles",
+      "question": "Two years ago, City L was listed 14th in an annual survey that ranks cities according to the quality of life that can be enjoyed by those living in them. This information will enable people who are moving to the state in which City L is located to confidently identify one place, at least, where schools are good, housing is affordable, people are friendly, the environment is safe, and the arts flourish."
+    },
+    {
+      "text": " The following appeared in a memorandum from a member of a financial management and consulting firm",
+      "question": "We have learned from an employee of Windfall, Ltd., that its accounting department, by checking about 10 percent of the last month\u2019s purchasing invoices for errors and inconsistencies, saved the company some $10,000 in overpayments. In order to help our clients increase their net gains, we should advise each of them to institute a policy of checking all purchasing invoices for errors. Such a recommendation could also help us get the Windfall account by demonstrating to Windfall the rigorousness of our methods."
+    },
+    {
+      "text": "   The following appeared in a newspaper editorial",
+      "question": "As violence in movies increases, so do crime rates in our cities. To combat this problem we must establish a board to censor certain movies, or we must limit admission to persons over 21 years of age. Apparently our legislators are not concerned about this issue since a bill calling for such actions recently failed to receive a majority vote."
+    },
+    {
+      "text": " The following appeared in the editorial section of a local newspaper",
+      "question": "Commuter use of the new subway train is exceeding the transit company\u2019s projections. However, commuter use of the shuttle buses that transport people to the subway stations is below the projected volume. If the transit company expects commuters to ride the shuttle buses to the subway rather than drive there, it must either reduce the shuttle bus fares or increase the price of parking at the subway stations."
+    },
+    {
+      "text": " The following was excerpted from the speech of a spokesperson for Synthetic Farm Products, Inc.",
+      "question": "Many farmers who invested in the equipment needed to make the switch from synthetic to organic fertilizers and pesticides feel that it would be too expensive to resume synthetic farming at this point. But studies of farmers who switched to organic farming last year indicate that their current crop yields are lower. Hence their purchase of organic farming equipment, a relatively minor investment compared to the losses that would result from continued lower crop yields, cannot justify persisting on an unwise course. And the choice to farm organically is financially unwise, given that it was motivated by environmental rather than economic concerns."
+    },
+    {
+      "text": " The following appeared in a newspaper story giving advice about investments",
+      "question": "As overall life expectancy continues to rise, the population of our country is growing increasingly older. For example, more than 20 percent of the residents of one of our more populated regions are now at least 65 years old, and occupancy rates at resort hotels in that region declined significantly during the past six months. Because of these two related trends, a prudent investor would be well advised to sell interest in hotels and invest in hospitals and nursing homes instead."
+    },
+    {
+      "text": " The following appeared as part of the business plan of an investment and financial consulting firm",
+      "question": "Studies suggest that an average coffee drinker\u2019s consumption of coffee increases with age, from age 10 through age 60. Even after age 60, coffee consumption remains high. The average cola drinker\u2019s consumption of cola, however, declines with increasing age. Both of these trends have remained stable for the past 40 years. Given that the number of older adults will significantly increase as the population ages over the next 20 years, it follows that the demand for coffee will increase and the demand for cola will decrease during this period. We should, therefore, consider transferring our investments from Cola Loca to Early Bird Coffee."
+    },
+    {
+      "text": "   The following appeared in the editorial section of a West Cambria newspaper",
+      "question": "A recent review of the West Cambria volunteer ambulance service revealed a longer average response time to accidents than was reported by a commercial ambulance squad located in East Cambria. In order to provide better patient care for accident victims and to raise revenue for our town by collecting service fees for ambulance use, we should disband our volunteer service and hire a commercial ambulance service."
+    },
+    {
+      "text": " The following is part of a business plan being discussed at a board meeting of the Perks Company",
+      "question": "It is no longer cost-effective for the Perks Company to continue offering its employees a generous package of benefits and incentives year after year. In periods when national unemployment rates are low, Perks may need to offer such a package in order to attract and keep good employees, but since national unemployment rates are now high, Perks does not need to offer the same benefits and incentives. The money thus saved could be better used to replace the existing plant machinery with more technologically sophisticated equipment, or even to build an additional plant."
+    },
+    {
+      "text": " The following appeared in an editorial from a magazine produced by an organization dedicated to environmental protection",
+      "question": "In order to effectively reduce the amount of environmental damage that industrial manufacturing plants cause, those who manage the plants must be aware of the specific amount and types of damage caused by each of their various manufacturing processes. However, few corporations have enough financial incentive to monitor this information. In order to guarantee that corporations reduce the damage caused by their plants, the federal government should require every corporation to produce detailed annual reports on the environmental impact of their manufacturing process, and the government should impose stiff financial penalties for failure to produce these reports."
+    },
+    {
+      "text": " The following appeared as part of a plan proposed by an executive of the Easy Credit Company to the president",
+      "question": "The Easy Credit Company would gain an advantage over competing credit card services if we were to donate a portion of the proceeds from the use of our cards to a well-known environmental organization in exchange for the use of its symbol or logo on our card. Since a recent poll shows that a large percentage of the public is concerned about environmental issues, this policy would attract new customers, increase use among existing customers, and enable us to charge interest rates that are higher than the lowest ones available."
+    },
+    {
+      "text": "   The following appeared as part of a recommendation from the financial planning office to the administration of Fern Valley University",
+      "question": "In the past few years, Fern Valley University has suffered from a decline in both enrollments and admissions applications. The reason can be discovered from our students, who most often cite poor teaching and inadequate library resources as their chief sources of dissatisfaction with Fern Valley. Therefore, in order to increase the number of students attending our university, and hence to regain our position as the most prestigious university in the greater Fern Valley metropolitan area, it is necessary to initiate a fund-raising campaign among the alumni that will enable us to expand the range of subjects we teach and to increase the size of our library facilities."
+    },
+    {
+      "text": " The following appeared in an article in a college departmental newsletter",
+      "question": "Professor Taylor of Jones University is promoting a model of foreign language instruction in which students receive 10 weeks of intensive training, then go abroad to live with families for 10 weeks. The superiority of the model, Professor Taylor contends, is proved by the results of a study in which foreign language tests given to students at 25 other colleges show that first-year foreign language students at Jones speak more fluently after only 10 to 20 weeks in the program than do nine out of 10 foreign language majors elsewhere at the time of their graduation."
+    },
+    {
+      "text": " The following appeared as part of an article in the business section of a local newspaper",
+      "question": "Motorcycle X has been manufactured in the United States for more than 70 years. Although one foreign company has copied the motorcycle and is selling it for less, the company has failed to attract motorcycle X customers\u2014some say because its product lacks the exceptionally loud noise made by motorcycle X. But there must be some other explanation. After all, foreign cars tend to be quieter than similar American-made cars, but they sell at least as well. Also, television advertisements for motorcycle X highlight its durability and sleek lines, not its noisiness, and the ads typically have voice-overs or rock music rather than engine-roar on the sound track."
+    },
+    {
+      "text": " The following appeared in the editorial section of a campus newspaper",
+      "question": "Because occupancy rates for campus housing fell during the last academic year, so did housing revenues. To solve the problem, campus housing officials should reduce the number of available housing units, thereby increasing the occupancy rates. Also, to keep students from choosing to live off-campus, housing officials should lower the rents, thereby increasing demand."
+    },
+    {
+      "text": "   The following appeared in an Avia Airlines departmental memorandum",
+      "question": "On average, 9 out of every 1,000 passengers who traveled on Avia Airlines last year filed a complaint about our baggage-handling procedures. This means that although some 1 percent of our passengers were unhappy with those procedures, the overwhelming majority were quite satisfied with them; thus it would appear that a review of the procedures is not important to our goal of maintaining or increasing the number of Avia\u2019s passengers."
+    },
+    {
+      "text": " The following appeared as part of an article in a weekly newsmagazine",
+      "question": "The country of Sacchar can best solve its current trade deficit problem by lowering the price of sugar, its primary export. Such an action would make Sacchar better able to compete for markets with other sugar-exporting countries. The sale of Sacchar\u2019s sugar abroad would increase, and this increase would substantially reduce Sacchar\u2019s trade deficit."
+    },
+    {
+      "text": " The following appeared as part of an article in a trade publication",
+      "question": "Stronger laws are needed to protect new kinds of home-security systems from being copied and sold by imitators. With such protection, manufacturers will naturally invest in the development of new home-security products and production technologies. Without stronger laws, therefore, manufacturers will cut back on investment. From this will follow a corresponding decline not only in product quality and marketability, but also in production efficiency, and thus ultimately a loss of manufacturing jobs in the industry."
+    },
+    {
+      "text": " The following appeared in the opinion section of a national newsmagazine",
+      "question": "To reverse the deterioration of the postal service, the government should raise the price of postage stamps. This solution will no doubt prove effective, since the price increase will generate larger revenues and will also reduce the volume of mail, thereby eliminating the strain on the existing system and contributing to improved morale."
+    },
+    {
+      "text": " The following appeared in an article in the health section of a newspaper",
+      "question": "There is a common misconception that university hospitals are better than community or private hospitals. This notion is unfounded, however: the university hospitals in our region employ 15 percent fewer doctors, have a 20 percent lower success rate in treating patients, make far less overall profit, and pay their medical staff considerably less than do private hospitals. Furthermore, many doctors at university hospitals typically divide their time among teaching, conducting research, and treating patients. From this it seems clear that the quality of care at university hospitals is lower than that at other kinds of hospitals."
+    },
+    {
+      "text": "   The following is part of a business plan created by the management of the Megamart grocery store",
+      "question": "Our total sales have increased this year by 20 percent since we added a pharmacy section to our grocery store. Clearly, the customer\u2019s main concern is the convenience afforded by one-stop shopping. The surest way to increase our profits over the next couple of years, therefore, is to add a clothing department along with an automotive supplies and repair shop. We should also plan to continue adding new departments and services, such as a restaurant and a garden shop, in subsequent years. Being the only store in the area that offers such a range of services will give us a competitive advantage over other local stores."
+    },
+    {
+      "text": " The following appeared as part of a column in a popular entertainment magazine",
+      "question": "The producers of the forthcoming movie 3003 will be most likely to maximize their profits if they are willing to pay Robin Good several million dollars to star in it\u2014even though that amount is far more than any other person involved with the movie will make. After all, Robin has in the past been paid a similar amount to work in several films that were very financially successful."
+    },
+    {
+      "text": " The following appeared in a memorandum from the directors of a security and safety consulting service",
+      "question": "Our research indicates that over the past six years no incidents of employee theft have been reported within 10 of the companies that have been our clients. In analyzing the security practices of these 10 companies, we have further learned that each of them requires its employees to wear photo identification badges while at work. In the future, therefore, we should recommend the use of such identification badges to all of our clients."
+    },
+    {
+      "text": " The following appeared as part of an article in the business section of a local newspaper",
+      "question": "The owners of the Cumquat Caf\u00e9 evidently made a good business decision in moving to a new location, as can be seen from the fact that the Caf\u00e9 will soon celebrate its second anniversary there. Moreover, it appears that businesses are not likely to succeed at the old location: since the Caf\u00e9\u2019s move, three different businesses\u2014a tanning salon, an antique emporium, and a pet-grooming shop\u2014have occupied its former spot."
+    },
+    {
+      "text": " The following appeared in the editorial section of a local newspaper",
+      "question": "The profitability of Croesus Company, recently restored to private ownership, is a clear indication that businesses fare better under private ownership than under public ownership."
+    },
+    {
+      "text": "   The following appeared in the editorial section of a local newspaper",
+      "question": "If the paper from every morning edition of the nation\u2019s largest newspaper were collected and rendered into paper pulp that the newspaper could reuse, about 5 million trees would be saved each year. This kind of recycling is unnecessary, however, since the newspaper maintains its own forests to ensure an uninterrupted supply of paper."
+    },
+    {
+      "text": " The following appeared as part of a business plan recommended by the new manager of a musical rock group called Zapped",
+      "question": "To succeed financially, Zapped needs greater name recognition. It should therefore diversify its commercial enterprises. The rock group Zonked plays the same type of music that Zapped plays, but it is much better known than Zapped because, in addition to its concert tours and four albums, Zonked has a series of posters, a line of clothing and accessories, and a contract with a major advertising agency to endorse a number of different products."
+    },
+    {
+      "text": " The following appeared in a magazine article on trends and lifestyles",
+      "question": "In general, people are not as concerned as they were a decade ago about regulating their intake of red meat and fatty cheeses. Walk into the Heart\u2019s Delight, a store that started selling organic fruits and vegetables and whole-grain flours in the 1960\u2019s, and you will also find a wide selection of cheeses made with high butterfat content. Next door, the owners of the Good Earth Caf\u00e9, an old vegetarian restaurant, are still making a modest living, but the owners of the new House of Beef across the street are millionaires."
+    },
+    {
+      "text": " The following appeared in a memorandum from the information technology department of a major advertising firm",
+      "question": "The more efficient a firm\u2019s employees are, the more profitable that firm will be. Improvements in a firm\u2019s information technology hardware and software are a proven way to increase the efficiency of employees who do the majority of their work on computers. Therefore, if our firm invests in the most powerful and advanced information technology available, employee productivity will be maximized. This strategy ensures that every dollar spent on enhanced information technology will help to increase our firm\u2019s profit margins."
+    },
+    {
+      "text": " The following editorial appeared in the Elm City paper",
+      "question": "The construction last year of a shopping mall in downtown Oak City was a mistake. Since the mall has opened, a number of local businesses have closed, and the downtown area suffers from an acute parking shortage, and arrests for crime and vagrancy have increased in the nearby Oak City Park. Elm City should pay attention to the example of the Oak City mall and deny the application to build a shopping mall in Elm City."
+    },
+    {
+      "text": "   The following appeared as part of an editorial in a weekly newsmagazine",
+      "question": "Historically, most of this country\u2019s engineers have come from our universities; recently, however, our university-age population has begun to shrink, and decreasing enrollments in our high schools clearly show that this drop in numbers will continue throughout the remainder of the decade. Consequently, our nation will soon be facing a shortage of trained engineers. If we are to remain economically competitive in the world marketplace, then we must increase funding for education\u2014and quickly."
+    },
+    {
+      "text": " The following appeared in an Excelsior Company memorandum",
+      "question": "The Excelsior Company plans to introduce its own brand of coffee. Since coffee is an expensive food item, and since there are already many established brands of coffee, the best way to gain customers for the Excelsior brand is to do what Superior, the leading coffee company, did when it introduced the newest brand in its line of coffees: conduct a temporary sales promotion that offers free samples, price reductions, and discount coupons for the new brand."
+    },
+    {
+      "text": " The following appeared as part of an article in a health club trade publication",
+      "question": "After experiencing a decline in usage by its members, Healthy Heart fitness center built an indoor pool. Since usage did not increase significantly, it appears that health club managers should adopt another approach\u2014lowering membership fees rather than installing expensive new features."
+    },
+    {
+      "text": " The following appeared as part of an article in a popular arts-and-leisure magazine",
+      "question": "The safety codes governing the construction of public buildings are becoming far too strict. The surest way for architects and builders to prove that they have met the minimum requirements established by these codes is to construct buildings by using the same materials and methods that are currently allowed. But doing so means that there will be very little significant technological innovation within the industry, and hence little evolution of architectural styles and design\u2014merely because of the strictness of these safety codes."
+    },
+    {
+      "text": " The following is from a campaign by Big Boards Inc. to convince companies in River City that their sales will increase if they use Big Boards billboards for advertising their locally manufactured products",
+      "question": "The potential of Big Boards to increase sales of your products can be seen from an experiment we conducted last year. We increased public awareness of the name of the current national women\u2019s marathon champion by publishing her picture and her name on billboards in River City for a period of three months. Before this time, although the champion had just won her title and was receiving extensive national publicity, only five percent of 15,000 randomly surveyed residents of River City could correctly name the champion when shown her picture; after the three-month advertising experiment, 35 percent of respondents from a second survey could supply her name."
+    },
+    {
+      "text": "   The following appeared as part of an article on government funding of environmental regulatory agencies",
+      "question": "When scientists finally learn how to create large amounts of copper from other chemical elements, the regulation of copper mining will become unnecessary. For one thing, since the amount of potentially available copper will no longer be limited by the quantity of actual copper deposits, the problem of over-mining will quickly be eliminated altogether. For another, manufacturers will not need to use synthetic copper substitutes, the production of which creates pollutants. Thus, since two problems will be settled\u2014over-mining and pollution\u2014it makes good sense to reduce funding for mining regulation and either save the money or reallocate it where it is needed more."
+    },
+    {
+      "text": " The following appeared as part of an article in a popular science magazine",
+      "question": "Scientists must typically work 60 to 80 hours a week if they hope to further their careers; consequently, good and affordable all-day child care must be made available to both male and female scientists if they are to advance in their fields. Moreover, requirements for career advancement must be made more flexible so that preschool-age children can spend a significant portion of each day with a parent."
+    },
+    {
+      "text": " The following appeared as part of a recommendation by one of the directors of the Beta Company",
+      "question": "The Alpha Company has just reduced its workforce by laying off 15 percent of its employees in all divisions and at all levels, and it is encouraging early retirement for other employees. As you know, the Beta Company manufactures some products similar to Alpha\u2019s, but our profits have fallen over the last few years. To improve Beta\u2019s competitive position, we should try to hire a significant number of Alpha\u2019s former workers, since these experienced workers can provide valuable information about Alpha\u2019s successful methods, will require little training, and will be particularly motivated to compete against Alpha."
+    },
+    {
+      "text": " The following appeared in the letters-to-the-editor section of a local newspaper",
+      "question": "Muscle Monthly, a fitness magazine that regularly features pictures of bodybuilders using state-of-the-art exercise machines, frequently sells out, according to the owner of Skyview Newsstand. To help maximize fitness levels in our town\u2019s residents, we should, therefore, equip our new community fitness center with such machines."
+    },
+    {
+      "text": " The following appeared as part of an article in the business section of a local newspaper",
+      "question": "The Cumquat Caf\u00e9 made a mistake in moving to a new location. After one year at the new spot, it is doing about the same volume of business as before, but the owners of the RoboWrench plumbing supply wholesale outlet that took over its old location are apparently doing better: RoboWrench is planning to open a store in a neighboring city."
+    },
+    {
+      "text": "   The following appeared in a memorandum from the CEO of a consumer electronics manufacturing firm to the head of the company's human resources department, who is responsible for hiring new employees",
+      "question": "Eight years ago, our firm\u2019s profits were increasing with each new employee we added. We discovered that each employee had the skills and motivation to generate more revenue for the firm than his or her salary cost us. However, for the past two years, our profit margin has been falling, even though we have continued to add employees. Thus, our newer employees are not generating enough revenue to justify their salaries. We must not be hiring new employees with the same level of skills and motivation as those we used to attract. Clearly, then, failures in the human resources department account for our falling profits."
+    },
+    {
+      "text": " The following appeared in a memorandum from the director of human resources to the executive officers of Company X",
+      "question": "Last year, we surveyed our employees on improvements needed at Company X by having them rank, in order of importance, the issues presented in a list of possible improvements. Improved communications between employees and management was consistently ranked as the issue of highest importance by the employees who responded to the survey. As you know, we have since instituted regular communications sessions conducted by high-level management, which the employees can attend on a voluntary basis. Therefore, it is likely that most employees at Company X now feel that the improvement most needed at the company has been made."
+    },
+    {
+      "text": " The following appeared in a memorandum from the vice president of Road Food, an international chain of fast-food restaurants",
+      "question": "This past year, we spent almost as much on advertising as did our main competitor, Street Eats, which has fewer restaurants than we do. Although it appeared at first that our advertising agency had created a campaign along the lines we suggested, in fact our total profits were lower than those of Street Eats. In order to motivate our advertising agency to perform better, we should start basing the amount that we pay it on how much total profit we make each year."
+    },
+    {
+      "text": " The following appeared in the promotional literature for Cerberus dog food",
+      "question": "Obesity is a great problem among pet dogs, just as it is among their human owners. Obesity in humans is typically caused by consuming more calories than the body needs. For humans, a proper diet for losing weight is a reducedcalorie diet that is high in fiber and carbohydrates but low in fat. Therefore, the best way for dog owners to help their dogs lose weight in a healthy way is to restrict the dog\u2019s diet to Cerberus reduced calorie dog food, which is high in fiber and carbohydrates but low in fat."
+    },
+    {
+      "text": "   The following appeared in an article in a travel magazine",
+      "question": "After the airline industry began requiring airlines to report their on-time rates, Speedee Airlines achieved the number one on-time rate, with more than 89 percent of its flights arriving on time each month. And now Speedee is offering more flights to more destinations than ever before. Clearly, Speedee is the best choice for today\u2019s business traveler."
+    },
+    {
+      "text": " The following appeared in a memorandum to the planning department of an investment firm",
+      "question": "Costs have begun dropping for several types of equipment currently used to convert solar energy into electricity. Moreover, some exciting new technologies for converting solar energy are now being researched and developed. Hence we can expect that solar energy will soon become more cost efficient and attractive than coal or oil as a source of electrical power. We should, therefore, encourage investment in Solario, a new manufacturer of solarpowered products. After all, Solario\u2019s chief executive was once on the financial planning team for Ready-to-Ware, a software engineering firm that has shown remarkable growth since its recent incorporation."
+    },
+    {
+      "text": " The following appeared in a memorandum from a company\u2019s marketing department",
+      "question": "Since our company started manufacturing and marketing a deluxe air filter six months ago, sales of our economy filter\u2014and company profits\u2014have decreased significantly. The deluxe air filter sells for 50 percent more than the economy filter, but the economy filter lasts for only one month while the deluxe filter can be used for two months before it must be replaced. To increase repeat sales of our economy filter and maximize profits, we should discontinue the deluxe air filter and concentrate all our advertising efforts on the economy filter."
+    },
+    {
+      "text": " The following appeared in a memorandum from the president of a company that makes shampoo",
+      "question": "A widely publicized study claims that HR2, a chemical compound in our shampoo, can contribute to hair loss after prolonged use. This study, however, involved only 500 subjects. Furthermore, we have received no complaints from our customers during the past year, and some of our competitors actually use more HR2 per bottle of shampoo than we do. Therefore, we do not need to consider replacing the HR2 in our shampoo with a more expensive alternative."
+    },
+    {
+      "text": " The following appeared in the editorial section of a local newspaper",
+      "question": "The tragic crash of a medical helicopter last week points up a situation that needs to be addressed. The medicalhelicopter industry supposedly has more stringent guidelines for training pilots and maintaining equipment than do most other airline industries, but these guidelines do not appear to be working: statistics reveal that the rate of medical-helicopter accidents is much higher than the rate of accidents for nonmedical helicopters or commercial airliners."
+    },
+    {
+      "text": "   The following appeared as part of a recommendation from the business manager of a department store",
+      "question": "Local clothing stores reported that their profits decreased, on average, for the three-month period between August 1 and October 31. Stores that sell products for the home reported that, on average, their profits increased during this same period. Clearly, consumers are choosing to buy products for their homes instead of clothing. To take advantage of this trend, we should reduce the size of our clothing departments and enlarge our home furnishings and household products departments."
+    },
+    {
+      "text": " The following appeared in a letter to the editor of a regional newspaper",
+      "question": "In response to petitions from the many farmers and rural landowners throughout our region, the legislature has spent valuable time and effort enacting severe laws to deter motorists from picking fruit off the trees, trampling through the fields, and stealing samples of foliage. But how can our local lawmakers occupy themselves with such petty vandalism when crime and violence plague the nation\u2019s cities? The fate of apples and leaves is simply too trivial to merit their attention."
+    },
+    {
+      "text": " The following appeared in a letter from a part-owner of a small retail clothing chain to her business partner",
+      "question": "Commercial real estate prices have been rising steadily in the Sandida Heights neighborhood for several years, while the prices in the adjacent neighborhood of Palm Grove have remained the same. It seems obvious, then, that a retail space in Sandida Heights must now be much more expensive than a similar space in Palm Grove, which was not the case several years ago. So, it appears that retail spaces in Sandida Heights are now overpriced relative to those in Palm Grove. Therefore, it would be in our financial interest to purchase a retail space in Palm Grove rather than in Sandida Heights."
+    },
+    {
+      "text": " The following appeared as part of an editorial in a campus newspaper",
+      "question": "With an increasing demand for highly skilled workers, this nation will soon face a serious labor shortage. New positions in technical and professional occupations are increasing rapidly, while at the same time the total labor force is growing slowly. Moreover, the government is proposing to cut funds for aid to education in the near future."
+    },
+    {
+      "text": " The following appeared as part of a memorandum from a government agency",
+      "question": "Given the limited funding available for the building and repair of roads and bridges, the government should not spend any money this year on fixing the bridge that crosses the Styx River. This bridge is located near a city with a weakening economy, so it is not as important as other bridges; moreover, the city population is small and thus unlikely to contribute a significant enough tax revenue to justify the effort of fixing the bridge."
+    },
+    {
+      "text": "   The following appeared as part of an article in an entertainment magazine",
+      "question": "A series of books based on the characters from a popular movie are consistently best sellers in local bookstores. Seeking to capitalize on the books\u2019 success, Vista Studios is planning to produce a movie sequel based on the books. Due to the success of the books and the original movie, the sequel will undoubtedly be profitable."
+    },
+    {
+      "text": " The following appeared in a letter to the editor of a popular science and technology magazine",
+      "question": "It is a popular myth that consumers are really benefiting from advances in agricultural technology. Granted, consumers are, on the average, spending a decreasing proportion of their income on food. But consider that the demand for food does not rise in proportion with real income. As real income rises, therefore, consumers can be expected to spend a decreasing proportion of their income on food. Yet agricultural technology is credited with having made our lives better."
+    },
+    {
+      "text": " The following appeared in the editorial section of a local newspaper",
+      "question": "This city should be able to improve existing services and provide new ones without periodically raising the taxes of the residents. Instead, the city should require that the costs of services be paid for by developers who seek approval for their large new building projects. After all, these projects can be highly profitable to the developers, but they can also raise a city\u2019s expenses and increase the demand for its services."
+    },
+    {
+      "text": " The following appeared in the editorial section of a local newspaper",
+      "question": "In order to avoid the serious health threats associated with many landfills, our municipality should build a plant for burning trash. An incinerator could offer economic as well as ecological advantages over the typical old-fashioned type of landfill: incinerators can be adapted to generate moderate amounts of electricity, and ash residue from some types of trash can be used to condition garden soil."
+    },
+    {
+      "text": " The following appeared in the editorial section of a monthly business newsmagazine",
+      "question": "Most companies would agree that as the risk of physical injury occurring on the job increases, the wages paid to employees should also increase. Hence it makes financial sense for employers to make the workplace safer: they could thus reduce their payroll expenses and save money."
+    },
+    {
+      "text": "   The following appeared as part of a company memorandum",
+      "question": "Adopting an official code of ethics regarding business practices may in the long run do our company more harm than good in the public eye. When one of our competitors received unfavorable publicity for violating its own code of ethics, it got more attention from the media than it would have if it had had no such code. Rather than adopt an official code of ethics, therefore, we should instead conduct a publicity campaign that stresses the importance of protecting the environment and assisting charitable organizations."
+    },
+    {
+      "text": " The following appeared in the editorial section of a daily newspaper",
+      "question": "Although forecasts of presidential elections based on opinion polls measure current voter preference, many voters keep changing their minds about whom they prefer until the last few days before the balloting. Some do not even make a final decision until they enter the voting booth. Forecasts based on opinion polls are therefore little better at predicting election outcomes than a random guess would be."
+    },
+    {
+      "text": " The following appeared in the editorial section of a newspaper in the country of West Cambria",
+      "question": "The practice of officially changing speed limits on the highways\u2014whether by increasing or decreasing them\u2014is a dangerous one. Consider what happened over the past decade whenever neighboring East Cambria changed its speed limits: an average of 3 percent more automobile accidents occurred during the week following the change than had occurred during the week preceding it\u2014even when the speed limit was lowered. This statistic shows that the change in speed limit adversely affected the alertness of drivers."
+    },
+    {
+      "text": " The following appeared as part of a memorandum from the vice president of Nostrum, a large pharmaceutical corporation",
+      "question": "The proposal to increase the health and retirement benefits that our employees receive should not be implemented at this time. An increase in these benefits is not only financially unjustified, since our last year\u2019s profits were lower than those of the preceding year, but also unnecessary, since our chief competitor, Panacea, offers its employees lower health and retirement benefits than we currently offer. We can assume that our employees are reasonably satisfied with the health and retirement benefits that they now have since a recent survey indicated that two-thirds of the respondents viewed them favorably."
+    },
+    {
+      "text": " The following appeared as part of an article in the business section of a daily newspaper",
+      "question": "Company A has a large share of the international market in video-game hardware and software. Company B, the pioneer in these products, was once a $12 billion-a-year giant but collapsed when children became bored with its line of products. Thus Company A can also be expected to fail, especially given the fact that its games are now in so many American homes that the demand for them is nearly exhausted."
+    },
+    {
+      "text": "   The following appeared as part of an article on trends in television",
+      "question": "A recent study of viewers\u2019 attitudes toward prime-time television programs shows that many of the programs that were judged by their viewers to be of high quality appeared on (noncommercial) television networks, and that, on commercial television, the most popular shows are typically sponsored by the best-selling products. Thus, it follows that businesses who use commercial television to promote their products will achieve the greatest advertising success by sponsoring only highly rated programs\u2014and, ideally, programs resembling the highly rated noncommercial programs on public channels as much as possible."
+    },
+    {
+      "text": " The following appeared as part of an article in a photography magazine",
+      "question": "When choosing whether to work in color or in black-and-white, the photographer who wishes to be successful should keep in mind that because color photographs are more true to life, magazines use more color photographs than blackand-white ones, and many newspapers are also starting to use color photographs. The realism of color also accounts for the fact that most portrait studios use more color film than black-and- white film. Furthermore, there are more types of color film than black-and-white film available today. Clearly, photographers who work in color have an advantage over those who work in black-and-white."
+    },
+    {
+      "text": " The following appeared as part of a letter to the editor of a local newspaper",
+      "question": "It makes no sense that in most places 15-year-olds are not eligible for their driver\u2019s license while people who are far older can retain all of their driving privileges by simply renewing their license. If older drivers can get these renewals, often without having to pass another driving test, then 15-year-olds should be eligible to get a license. Fifteen-yearolds typically have much better eyesight, especially at night; much better hand-eye coordination; and much quicker reflexes. They are also less likely to feel confused by unexpected developments or disoriented in unfamiliar surroundings, and they recover from injuries more quickly."
+    },
+    {
+      "text": " The following appeared in an ad for a book titled How to Write a Screenplay for a Movie",
+      "question": "Writers who want to succeed should try to write film screenplays rather than books, since the average film tends to make greater profits than does even a best-selling book. It is true that some books are also made into films. However, our nation\u2019s film producers are more likely to produce movies based on original screenplays than to produce films based on books, because in recent years the films that have sold the most tickets have usually been based on original screenplays."
+    },
+    {
+      "text": " The following appeared as part of an article in a daily newspaper",
+      "question": "The computerized onboard warning system that will be installed in commercial airliners will virtually solve the problem of midair plane collisions. One plane\u2019s warning system can receive signals from another\u2019s transponder\u2014a radio set that signals a plane\u2019s course\u2014in order to determine the likelihood of a collision and recommend evasive action."
+    },
+    {
+      "text": "   The following appeared in a memorandum from the ElectroWares company\u2019s marketing department",
+      "question": "Since our company started manufacturing and marketing a deluxe light bulb six months ago, sales of our economy light bulb\u2014and company profits\u2014have decreased significantly. Although the deluxe light bulb sells for 50 percent more than the economy bulb, it lasts twice as long. Therefore, to increase repeat sales and maximize profits, we should discontinue the deluxe light bulb."
+    },
+    {
+      "text": " The following is taken from an editorial in a local newspaper",
+      "question": "Over the past decade, the price per pound of citrus fruit has increased substantially. Eleven years ago, Megamart charged 15 cents a pound for lemons, but today it commonly charges over a dollar a pound. In only one of these last 11 years was the weather unfavorable for growing citrus crops. Evidently, then, citrus growers have been responsible for the excessive increase in the price of citrus fruit, and strict pricing regulations are needed to prevent them from continuing to inflate prices."
+    },
+    {
+      "text": " The following appeared in a presentation by the chief production manager of a machine parts manufacturing company at a management meeting ",
+      "question": "Our factory in Cookville is our most advanced and efficient. It is capable of producing ten drill bits for each dollar of production costs, whereas none of our other factories can produce more than seven drill bits per dollar of production costs. Therefore, we can reduce our overall drill bit production costs by devoting the Cookville factory entirely to drill bit production. Since reducing the production costs of individual machine parts is the only way to achieve our larger goal of reducing our overall production costs, dedicating the Cookville factory entirely to drill bit production and shifting all other machine part production to our other factories will help us to attain that larger goal."
+    },
+    {
+      "text": " The following appeared as part of an article in a local newspaper",
+      "question": "Over the past three years the tartfish industry has changed markedly: fishing technology has improved significantly, and the demand for tartfish has grown in both domestic and foreign markets. As this trend continues, the tartfish industry on Shrimp Island can expect to experience the same overfishing problems that are already occurring with mainland fishing industries: without restrictions on fishing, fishers see no reason to limit their individual catches. As the catches get bigger, the tartfish population will be dangerously depleted while the surplus of tartfish will devalue the catch for fishers. Government regulation is the only answer: tartfish-fishing should be allowed only during the three-month summer season, when tartfish reproduce and thus are most numerous, rather than throughout the year."
+    },
+    {
+      "text": "   The following appeared in a proposal from the development office at Platonic University",
+      "question": "Because Platonic University has had difficulty in meeting its expenses over the past three years, we need to find new ways to increase revenues. We should consider following the example of Greene University, which recently renamed itself after a donor who gave it $100 million. If Platonic University were to advertise to its alumni and other wealthy people that it will rename either individual buildings or the entire university itself after the donors who give the most money, the amount of donations would undoubtedly increase."
+    },
+    {
+      "text": " The following appeared as part of an article in the business section of a local newspaper",
+      "question": "Hippocrene Plumbing Supply recently opened a wholesale outlet in the location once occupied by the Cumquat Caf\u00e9. Hippocrene has apparently been quite successful there because it is planning to open a large outlet in a nearby city. But the Cumquat Caf\u00e9, one year after moving to its new location, has seen its volume of business drop somewhat from the previous year\u2019s. Clearly, the former site was the better business location, and the Cumquat Caf\u00e9 has made a mistake in moving to its new address."
+    },
+    {
+      "text": " The following appeared in the editorial section of a local paper",
+      "question": "Applications for advertising spots on KMTV, our local cable television channel, decreased last year. Meanwhile a neighboring town\u2019s local channel, KOOP, changed its focus to farming issues and reported an increase in advertising applications for the year. To increase applications for its advertisement spots, KMTV should focus its programming on farming issues as well."
+    },
+    {
+      "text": " The following appeared as part of an article in a computer magazine",
+      "question": "A year ago Apex Manufacturing bought its managers computers for their homes and paid for telephone connections so that they could access Apex computers and data files from home after normal business hours. Since last year, productivity at Apex has increased by 15 percent. Other companies can learn from the success at Apex: given home computers and access to company resources, employees will work additional hours at home and thereby increase company profits."
+    },
+    {
+      "text": " The following was excerpted from an article in a farming trade publication",
+      "question": "Farmers who switched from synthetic to organic farming last year have seen their crop yields decline. Many of these farmers feel that it would be too expensive to resume synthetic farming at this point, given the money that they invested in organic farming supplies and equipment. But their investments will be relatively minor compared to the losses from continued lower crop yields. Organic farmers should switch to synthetic farming rather than persist in an unwise course. And the choice to farm organically is financially unwise, given that it was motivated by environmental rather than economic concerns."
+    },
+    {
+      "text": "   The following appeared in a letter to prospective students from the admissions office at Plateau College",
+      "question": "Every person who earned an advanced degree in science or engineering from Olympus University last year received numerous offers of excellent jobs. Typically, many graduates of Plateau College have gone on to pursue advanced degrees at Olympus. Therefore, enrolling as an undergraduate at Plateau College is a wise choice for students who wish to ensure success in their careers."
+    },
+    {
+      "text": " The following appeared in a memorandum sent by a vice-president of the Nadir Company to the company\u2019s human resources department",
+      "question": "Nadir does not need to adopt the costly \u2018family-friendly\u2019 programs that have been proposed, such as part-time work, work at home, and jobsharing. When these programs were made available at the Summit Company, the leader in its industry, only a small percentage of employees participated in them. Rather than adversely affecting our profitability by offering these programs, we should concentrate on offering extensive training that will enable employees to increase their productivity."
+    },
+    {
+      "text": " The following appeared as part of an article in a trade magazine for breweries",
+      "question": "Magic Hat Brewery recently released the results of a survey of visitors to its tasting room last year. Magic Hat reports that the majority of visitors asked to taste its low-calorie beers. To boost sales, other small breweries should brew low-calorie beers as well."
+    },
+    {
+      "text": " The following appeared in an editorial from a newspaper serving the town of Saluda",
+      "question": "The Saluda Consolidated High School offers more than 200 different courses from which its students can choose. A much smaller private school down the street offers a basic curriculum of only 80 different courses, but it consistently sends a higher proportion of its graduating seniors on to college than Consolidated does. By eliminating at least half of the courses offered there and focusing on a basic curriculum, we could improve student performance at Consolidated and also save many tax dollars."
+    },
+    {
+      "text": " The following appeared as an editorial in a magazine concerned with educational issues",
+      "question": "In our country, the real earnings of men who have only a high-school degree have decreased significantly over the past 15 years, but those of male college graduates have remained about the same. Therefore, the key to improving the earnings of the next generation of workers is to send all students to college. Our country\u2019s most important educational goal, then, should be to establish enough colleges and universities to accommodate all high school graduates."
+    },
+    {
+      "text": "   The following appeared as part of an article in the book section of a newspaper",
+      "question": "Currently more and more books are becoming available in electronic form\u2014either free-of-charge on the Internet or for a very low price-per-book on compact disc.* Thus literary classics are likely to be read more widely than ever before. People who couldn\u2019t have purchased these works at bookstore prices will now be able to read them for little or no money; similarly, people who find it inconvenient to visit libraries and wait for books to be returned by other patrons will now have access to whatever classic they choose from their home or work computers. This increase in access to literary classics will radically affect the public taste in reading, creating a far more sophisticated and learned reading audience than has ever existed before."
+    },
+    {
+      "text": "*A compact disc is a small portable disc capable of storing relatively large amounts of data that can be read by a computer.  The following appeared as part of a business plan created by the management of the Take Heart Fitness Center",
+      "question": "After opening the new swimming pool early last summer, Take Heart saw a 12 percent increase in the use of the center by its members. Therefore, in order to increase membership in Take Heart, we should continue to add new recreational facilities in subsequent years: for example, a multipurpose game room, a tennis court, and a miniature golf course. Being the only center in the area offering this range of activities would give us a competitive advantage in the health and recreation market."
+    },
+    {
+      "text": " The following appeared in a letter from a staff member in the office of admissions at Argent University",
+      "question": "The most recent nationwide surveys show that undergraduates choose their major field primarily based on their perception of job prospects in that field. At our university, economics is now the most popular major, so students must perceive this field as having the best job prospects. Therefore, we can increase our enrollment if we focus our advertising and recruiting on publicizing the accomplishments of our best-known economics professors and the success of our economics graduates in finding employment."
+    },
+    {
+      "text": " The following appeared as part of a memorandum from the loan department of the Frostbite National Bank",
+      "question": "We should not approve the business loan application of the local group that wants to open a franchise outlet for the Kool Kone chain of ice cream parlors. Frostbite is known for its cold winters, and cold weather can mean slow ice cream sales. For example, even though Frostbite is a town of 10,000 people, it has only one ice cream spot\u2014the Frigid Cow. Despite the lack of competition, the Frigid Cow\u2019s net revenues fell by 10 percent last winter."
+    },
+    {
+      "text": "   The following appeared as part of a letter to the editor of a local newspaper",
+      "question": "Bayview High School is considering whether to require all of its students to wear uniforms while at school. Students attending Acorn Valley Academy, a private school in town, earn higher grades on average and are more likely to go on to college. Moreover, Acorn Valley reports few instances of tardiness, absenteeism, or discipline problems. Since Acorn Valley requires its students to wear uniforms, Bayview High School would do well to follow suit and require its students to wear uniforms as well."
+    },
+    {
+      "text": " The following appeared in a memo to the Saluda town council from the town\u2019s business manager",
+      "question": "Research indicates that those who exercise regularly are hospitalized less than half as often as those who don\u2019t exercise. By providing a well-equipped gym for Saluda\u2019s municipal employees, we should be able to reduce the cost of our group health insurance coverage by approximately 50 percent and thereby achieve a balanced town budget."
+    },
+    {
+      "text": " The following appeared in a memorandum written by the assistant manager of a store that sells gourmet food items from various countries",
+      "question": "A local wine store made an interesting discovery last month: it sold more French than Italian wine on days when it played recordings of French accordion music, but it sold more Italian than French wine on days when Italian songs were played. Therefore, I recommend that we put food specialties from one particular country on sale for a week at a time and play only music from that country while the sale is going on. By this means we will increase our profits in the same way that the wine store did, and we will be able to predict more precisely what items we should stock at any given time."
+    },
+    {
+      "text": " The following appeared in a memorandum to a team developing accounting software for SmartPro Software, Inc. ",
+      "question": "Currently, more professional accountants use SmartPro accounting software than any other brand. However, in the market for personal accounting software for non-professionals to use in preparing their income tax returns, many of our competitors are outselling us. In surveys, our professional customers repeatedly say that they have chosen SmartPro Software because our most sophisticated software products include more advanced special features than competing brands. Therefore, the most effective way for us to increase sales of our personal accounting software for home users would clearly be to add the advanced special features that our professional software products currently offer."
+    },
+    {
+      "text": "   The following appeared in a memorandum from the assistant manager of Pageturner Books",
+      "question": "Over the past two years, Pageturner\u2019s profits have decreased by 5 percent, even though we have added a popular caf\u00e9 as well as a music section selling CDs and tapes. At the same time, we have experienced an increase in the theft of merchandise. We should therefore follow the example of Thoreau Books, which increased its profits after putting copies of its most frequently stolen books on a high shelf behind the payment counter. By doing likewise with copies of the titles that our staff reported stolen last year, we too can increase profitability."
+    },
+    {
+      "text": " The following appeared in a memorandum from the director of research and development at Ready-to-Ware, a software engineering firm",
+      "question": "The package of benefits and incentives that Ready-to-Ware offers to professional staff is too costly. Our quarterly profits have declined since the package was introduced two years ago, at the time of our incorporation. Moreover, the package had little positive effect, as we have had only marginal success in recruiting and training high-quality professional staff. To become more profitable again, Ready-to-Ware should, therefore, offer the reduced benefits package that was in place two years ago and use the savings to fund our current research and development initiatives."
+    },
+    {
+      "text": " The following appeared as a memorandum from the vice-president of the Dolci candy company",
+      "question": "Given the success of our premium and most expensive line of chocolate candies in a recent taste test and the consequent increase in sales, we should shift our business focus to producing additional lines of premium candy rather than our lower-priced, ordinary candies. When the current economic boom ends and consumers can no longer buy major luxury items, such as cars, they will still want to indulge in small luxuries, such as expensive candies."
+    },
+    {
+      "text": " The following appeared in a memorandum from the business office of the Lovin\u2019 Cupful, a national restaurant chain",
+      "question": "The Lovin\u2019 Cupful franchises in our northeast region have begun serving customers Almost, a brand new powdered instant tea, in place of brewed tea. Waiters report that only about 2 percent of the customers have complained, and that customers who want refills typically ask for \u2018more tea.\u2019 It appears, then, that 98 percent of the customers are perfectly happy with the switch, or else they cannot tell powdered instant from brewed tea. Therefore, in order to take advantage of the lower price per pound of Almost, all of our restaurants should begin substituting it for brewed tea."
+    },
+    {
+      "text": " The following appeared as part of an editorial in the Waymarsh city newspaper",
+      "question": "Last year the parents of first graders in our school district expressed satisfaction with the reading skills their children developed but complained strongly about their children\u2019s math skills. To remedy this serious problem and improve our district\u2019s elementary education, everyone in the teacher-training program at Waymarsh University should be required to take more courses in mathematics."
+    },
+    {
+      "text": "   The following appeared in a memorandum from the director of marketing for a pharmaceutical company",
+      "question": "According to a survey of 5,000 urban residents, the prevalence of stress headaches increases with educational level, so that stress headaches occur most often among people with graduate-school degrees. It is well established that, nationally, higher educational levels usually correspond with higher levels of income. Therefore, in marketing our new pain remedy, Omnilixir, we should send free samples primarily to graduate students and to people with graduate degrees, and we should concentrate on advertising in professional journals rather than in general interest magazines."
+    },
+    {
+      "text": " The following appeared in a letter to the editor of a local newspaper ",
+      "question": "Our city council\u2019s neglect of the impoverished Railroad Flats neighborhood has left businesses with little incentive to locate there. Building a new professional football stadium in the neighborhood would solve this problem. Thousands of football fans would travel to the area to see games, and they would buy from local merchants, encouraging new businesses to open. So our city council should move quickly to fund the construction of a professional football stadium in Railroad Flats in order to help the neighborhood develop a thriving economy."
+    },
+    {
+      "text": " The following appeared in a letter to the editor of a River City newspaper",
+      "question": "The Clio Development Group should not be permitted to build a multilevel parking garage on Dock Street since most of the buildings on the block would have to be demolished. Because these buildings were erected decades ago, they have historic significance and must therefore be preserved as economic assets in the effort to revitalize a restored riverfront area. Recall how Lakesburg has benefited from business increases in its historic downtown center. Moreover, there is plenty of vacant land for a parking lot elsewhere in River City."
+    },
+    {
+      "text": " The following appeared in a corporate planning memorandum for a company that develops amusement parks",
+      "question": "Because travel from our country to foreign countries has increased dramatically in recent years, our next project should be a \u2018World Tour\u2019 theme park with replicas of famous foreign buildings, rides that have international themes, and refreshment stands serving only foods from the country represented by the nearest ride. The best location would be near our capital city, which has large percentages of international residents and of children under the age of 16. Given the advantages of this site and the growing interest in foreign countries, the \u2018World Tour\u2019 theme park should be as successful as our space-travel theme park, where attendance has increased tenfold over the past decade."
+    },
+    {
+      "text": "   The following appeared in a memorandum from the publisher to the staff of The Clarion, a large metropolitan newspaper",
+      "question": "During the recent campaign for mayor, a clear majority of city readers who responded to our survey indicated a desire for more news about city government. To increase circulation, and thus our profits, we should therefore consistently devote a greater proportion of space in all editions of The Clarion to coverage of local news."
+    },
+    {
+      "text": " The following appeared in a letter to the editor of a River City newspaper",
+      "question": "The Clio Development Group\u2019s plan for a multilevel parking garage on Dock Street should be approved in order to strengthen the economy of the surrounding area. Although most of the buildings on the block would have to be demolished, they are among the oldest in the city and thus of little current economic value. Those who oppose the project should realize that historic preservation cannot be the only consideration: even Athens or Jerusalem will knock down old buildings to put up new ones that improve the local economy."
+    },
+    {
+      "text": " The following appeared in a memorandum from the owner of Carlo\u2019s Clothing to the staff",
+      "question": "Since Disc Depot, the music store on the next block, began a new radio advertising campaign last year, its business has grown dramatically, as evidenced by the large increase in foot traffic into the store. While the Disc Depot\u2019s owners have apparently become wealthy enough to retire, profits at Carlo\u2019s Clothing have remained stagnant for the past three years. In order to boost our sales and profits, we should therefore switch from newspaper advertising to frequent radio advertisements like those for Disc Depot."
+    },
+    {
+      "text": " The following appeared as part of the business plan of the Capital Idea investment firm",
+      "question": "Across town in the Park Hill district, the Thespian Theater, Pizzazz Pizza, and the Niblick Golf Club have all had business increases over the past two years. Capital Idea should therefore invest in the Roxy Playhouse, the Slice-o\u2019- Pizza, and the Divot Golf Club, three new businesses in the Irongate district. As a condition, we should require them to participate in a special program: Any customer who patronizes two of the businesses will receive a substantial discount at the third. By motivating customers to patronize all three, we will thus contribute to the profitability of each and maximize our return."
+    },
+    {
+      "text": " The following appeared as part of an article in a newsletter for farmers",
+      "question": "Users of Solacium, a medicinal herb now grown mainly in Asia, report that it relieves tension and promotes deep sleep. A recent study indicates that a large number of college students who took pills containing one of the ingredients in Solacium suffered less anxiety. To satisfy the anticipated demands for this very promising therapeutic herb and to reap the financial benefits, farmers in this country should begin growing it."
+    },
+    {
+      "text": "   The following appeared in a memorandum from the president of Aurora, a company that sells organic milk (milk produced without the use of chemical additives)",
+      "question": "Sales of organic food products in this country have tripled over the past five years. If Aurora is to profit from this continuing trend, we must diversify and start selling products such as organic orange juice and organic eggs in addition to our regular product line. With the recent increase of articles in health magazines questioning the safety of milk and other food products, customers are even more likely to buy our line of organic products. And to help ensure our successful expansion, we should hire the founder of a chain of health-food stores to serve as our vice president of marketing."
+    },
+    {
+      "text": " The following appeared in a memorandum from the marketing department of a children\u2019s clothing manufacturer ",
+      "question": "Our HuggyBunny brand is the bestselling brand of children\u2019s clothing. Parents everywhere recognize the HuggyBunny logo as a mark of quality, and most of our customers show great brand loyalty. Sales reports have shown that parents are more likely to buy children\u2019s clothes with the familiar HuggyBunny brand and logo than otherwise identical clothes without it. Therefore, if we use the HuggyBunny brand name and logo for the new line of clothing for teenagers that our company will soon be introducing, that clothing will sell better than it would if we labeled it with a new brand name and logo."
+    },
+    {
+      "text": " The following appeared in a memorandum from the human resources department of Diversified Manufacturing",
+      "question": "Managers at our central office report that their employees tend to be most productive in the days immediately preceding a vacation. To help counteract our declining market share, we could increase the productivity of our professional staff members, who currently receive four weeks paid vacation a year, by limiting them to a maximum of one week\u2019s continuous vacation time. They will thus take more vacation breaks during a year and give us more days of maximum productivity."
+    },
+    {
+      "text": " The following appeared in a memorandum from a regional supervisor of post office operations",
+      "question": "During a two-week study of postal operations, the Presto City post office handled about twice as many items as the Lento City post office, even though the cities are about the same size. Moreover, customer satisfaction appears to be higher in Presto City, since the study found fewer complaints regarding the Presto City post office. Therefore, the postmasters at these two offices should exchange assignments: the Presto City postmaster will solve the problems of inefficiency and customer dissatisfaction at the Lento City office while the Lento City postmaster learns firsthand the superior methods of Presto City."
+    },
+    {
+      "text": "   The following appeared in a memorandum written by the managing director of the Exeunt Theater Company",
+      "question": "Now that we have moved to a larger theater, we can expect to increase our revenues from ticket sales. To further increase profits, we should start producing the plays that have been most successful when they were performed in our nation\u2019s largest cities. In addition, we should hire the Adlib Theater Company\u2019s director of fund-raising, since corporate contributions to Adlib have increased significantly over the three years that she has worked for Adlib."
+    },
+    {
+      "text": " The following appeared in a memorandum from the human resources department of HomeStyle, a house remodeling business",
+      "question": "This year, despite HomeStyle\u2019s move to new office space, we have seen a decline in both company morale and productivity, and a corresponding increase in administrative costs. To rectify these problems, we should begin using a newly developed software package for performance appraisal and feedback. Managers will save time by simply choosing comments from a preexisting list; then the software will automatically generate feedback for the employee. The human resources department at CounterBalance, the manufacturer of the countertops we install, reports satisfaction with the package."
+    },
+    {
+      "text": " The following appeared as part of an article in a weekly newsmagazine",
+      "question": "The country of Oleum can best solve the problem of its balance of trade deficit by further increasing the tax on its major import, crude oil. After Oleum increased the tax on imported crude oil four months ago, consumption of gasoline declined by 20 percent. Therefore, by imposing a second and significantly higher tax increase next year, Oleum will dramatically decrease its balance of trade deficit."
+    },
+    {
+      "text": " The following appeared as part of a business plan by the Capital Idea investment firm",
+      "question": "In recent years the worldwide demand for fish has grown, and improvements in fishing technology have made larger catches and thus increased supply possible: for example, last year\u2019s tuna catch was 9 percent greater than the previous year\u2019s. To capitalize on these trends, we should therefore invest in the new tartfish processing plant on Tartfish Island, where increasing revenues from tourism indicate a strong local economy."
+    },
+    {
+      "text": " The following appeared in a speech by a stockholder of Consolidated Industries at the company\u2019s annual stockholders\u2019 meeting",
+      "question": "In the computer hardware division last year, profits fell significantly below projections, the product line decreased from 20 to only 5 items, and expenditures for employee benefits increased by 15 percent. Nevertheless, Consolidated\u2019s board of directors has approved an annual salary of more than $1 million for our company\u2019s chief executive officer. The present board members should be replaced because they are unconcerned about the increasing costs of employee benefits and salaries, in spite of the company\u2019s problems generating income."
+    },
+    {
+      "text": "   The following appeared in a memorandum from the business planning department of Avia Airlines",
+      "question": "Of all the cities in their region, Beaumont and Fletcher are showing the fastest growth in the number of new businesses. Therefore, Avia should establish a commuter route between them as a means of countering recent losses on its main passenger routes. And to make the commuter route more profitable from the outset, Avia should offer a 1/3 discount on tickets purchased within two days of the flight. Unlike tickets bought earlier, discount tickets will be nonrefundable, and so gain from their sale will be greater."
+    },
+    {
+      "text": " The following appeared in a memorandum from the vice president of Gigantis, a development company that builds and leases retail store facilities",
+      "question": "Nationwide over the past five years, sales have increased significantly at outlet stores that deal exclusively in reduced-price merchandise. Therefore, we should publicize the new mall that we are building at Pleasantville as a central location for outlet shopping and rent store space only to outlet companies. By taking advantage of the success of outlet stores, this plan should help ensure full occupancy of the mall and enable us to recover quickly the costs of building the mall."
+    },
+    {
+      "text": " The following appeared in a memorandum written by the chair of the music department to the president of Omega University",
+      "question": "Mental health experts have observed that symptoms of mental illness are less pronounced in many patients after group music-therapy sessions, and job openings in the music-therapy field have increased during the past year. Consequently, graduates from our degree program for music therapists should have no trouble finding good positions. To help improve the financial status of Omega University, we should therefore expand our music-therapy degree program by increasing its enrollment targets."
+    },
+    {
+      "text": " The following appeared in a memorandum to the work-group supervisors of the GBS Company",
+      "question": "The CoffeeCart beverage and food service located in the lobby of our main office building is not earning enough in sales to cover its costs, and so the cart may discontinue operating at GBS. Given the low staff morale, as evidenced by the increase in the number of employees leaving the company, the loss of this service could present a problem, especially since the staff morale questionnaire showed widespread dissatisfaction with the snack machines. Therefore, supervisors should remind the employees in their group to patronize the cart\u2014after all, it was leased for their convenience so that they would not have to walk over to the cafeteria on breaks."
+    },
+    {
+      "text": "   The following appeared in a research paper written for an introductory economics course ",
+      "question": "For the past century, an increase in the number of residential building permits issued per month in a particular region has been a reliable indicator of coming improvements to that region\u2019s economy. If the monthly number of residential building permits issued rises consistently for a few months, the local unemployment rate almost always falls and economic production increases. This well-established connection reveals an effective method by which a regional government can end a local economic downturn: relax regulations governing all construction so that many more building permits can be issued."
+    },
+    {
+      "text": " The following appeared as part of an article in a trade magazine",
+      "question": "During a recent trial period in which government inspections at selected meat-processing plants were more frequent, the amount of bacteria in samples of processed chicken decreased by 50 percent on average from the previous year\u2019s level. If the government were to institute more frequent inspections, the incidence of stomach and intestinal infections throughout the country could thus be cut in half. In the meantime, consumers of Excel Meats should be safe from infection because Excel\u2019s main processing plant has shown more improvement in eliminating bacterial contamination than any other plant cited in the government report.\u201d"
+    }
+  ]
+}

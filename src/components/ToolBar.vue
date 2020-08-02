@@ -9,7 +9,7 @@
       <div class="divider"></div>
     </div>
     <div id="download_container">
-      <button id="btn_download">Download</button>
+      <button id="btn_download">Save</button>
     </div>
   </div>
 </template>

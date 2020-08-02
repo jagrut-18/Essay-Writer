@@ -1,12 +1,12 @@
 <template>
   <div id="app">
     <ConfigOverlay @topicChanged="changeSelectedTopic" @selectedExam="changeSelectedExam" />
-    <div id="header_bar">
+    <div id="header">Essayister</div>
+    <!-- <div id="left_div">
       <div id="header">Essayister</div>
-    </div>
-    <div id="left_div"></div>
+    </div>-->
     <div id="right_div">
-      <Topic :topicText="selectedTopic" id="main_topic" />
+      <Topic :text="selectedTopicText" :question="selectedTopicQuestion" id="main_topic" />
       <WritingPad />
     </div>
   </div>
@@ -22,7 +22,8 @@ export default {
   data() {
     return {
       selectedExam: "GRE",
-      selectedTopic: "",
+      selectedTopicText: "",
+      selectedTopicQuestion: "",
     };
   },
   components: {
@@ -32,18 +33,11 @@ export default {
   },
   methods: {
     changeSelectedExam(newSelectedExam) {
-      console.log(newSelectedExam);
       this.selectedExam = newSelectedExam;
     },
     changeSelectedTopic(newSelectedTopic) {
-      console.log(newSelectedTopic);
-      console.log(this.selectedExam);
-      if (this.selectedExam === "GRE") {
-        this.selectedTopic =
-          newSelectedTopic.text + " " + newSelectedTopic.question;
-      } else {
-        this.selectedTopic = newSelectedTopic;
-      }
+      this.selectedTopicText = newSelectedTopic.text;
+      this.selectedTopicQuestion = newSelectedTopic.question;
     },
   },
 };
@@ -71,22 +65,34 @@ html {
 #left_div {
   float: left;
   width: 25%;
+  height: 100vh;
+  background-color: white;
 }
 #right_div {
-  float: right;
+  margin: auto;
   width: 70%;
-  padding: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 #header {
   font-size: 20;
   font-weight: bold;
   color: #007969;
   margin: 10px;
+  text-align: left;
 }
 #header_bar {
   display: flex;
   flex-direction: row;
   justify-content: left;
   border-bottom: 1px solid #e7e7e7;
+}
+#main_topic {
+  border: 0.5px solid #007969;
+  border-radius: 7px;
+  margin-bottom: 20px;
+  padding: 0 10px;
 }
 </style>

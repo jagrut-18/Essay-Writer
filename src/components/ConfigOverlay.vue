@@ -1,8 +1,5 @@
 <template>
   <div id="config_div">
-    <div id="header_bar">
-      <div id="header">Essayister</div>
-    </div>
     <div id="config_divs">
       <div id="default_config_divs">
         <SelectExamDropDown @changeExam="changeExam" />

@@ -5,7 +5,27 @@
         <div @click="selectTab" id="issue_tab" class="topic_tab selected_tab">Issue</div>
         <div @click="selectTab" id="argument_tab" class="topic_tab">Argument</div>
       </div>
-      <div v-for="topic in topicsToShow" :key="topic" class="selector_item" @click="selectTopic">
+      <div v-if="topicsToShow === 'issue'">
+        <div v-for="topic in gre.issues" :key="topic" class="selector_item" @click="selectTopic">
+          <div class="topic_text">
+            <div>{{ topic.text }}</div>
+            <div class="topic_question">{{ topic.question }}</div>
+          </div>
+          <div class="radio_button"></div>
+        </div>
+      </div>
+      <div v-else>
+        <div v-for="topic in gre.arguments" :key="topic" class="selector_item" @click="selectTopic">
+          <div class="topic_text">
+            <div>{{ topic.text }}</div>
+            <div class="topic_question">{{ topic.question }}</div>
+          </div>
+          <div class="radio_button"></div>
+        </div>
+      </div>
+    </div>
+    <div v-else-if="selectedExam === 'GMAT'">
+      <div v-for="topic in gmat" :key="topic" class="selector_item" @click="selectTopic">
         <div class="topic_text">
           <div>{{ topic.text }}</div>
           <div class="topic_question">{{ topic.question }}</div>
@@ -13,15 +33,12 @@
         <div class="radio_button"></div>
       </div>
     </div>
-    <div v-else-if="selectedExam === 'GMAT'">
-      <div v-for="topic in gmat" :key="topic" class="selector_item" @click="selectTopic">
-        <div class="topic_text">{{ topic }}</div>
-        <div class="radio_button"></div>
-      </div>
-    </div>
     <div v-else-if="selectedExam === 'IELTS'">
       <div v-for="topic in ielts" :key="topic" class="selector_item" @click="selectTopic">
-        <div class="topic_text">{{ topic }}</div>
+        <div class="topic_text">
+          <div>{{ topic.text }}</div>
+          <div class="topic_question">{{ topic.question }}</div>
+        </div>
         <div class="radio_button"></div>
       </div>
     </div>
@@ -29,45 +46,21 @@
 </template>
 
 <script>
+import argues from "../assets/arguments.json";
+import issues from "../assets/issues.json";
+import gmat from "../assets/gmat.json";
 export default {
   name: "TopicSelector",
   props: ["selectedExam"],
   data() {
     return {
-      topicsToShow: [
-        {
-          text: "issue 1",
-          question: "question 2",
-        },
-        {
-          text: "issue 2",
-          question: "question 2",
-        },
-      ],
+      topicsToShow: "issue",
       gre: {
-        issues: [
-          {
-            text: "issue 1",
-            question: "question 2",
-          },
-          {
-            text: "issue 2",
-            question: "question 2",
-          },
-        ],
-        arguments: [
-          {
-            text: "argument 1",
-            question: "question 1",
-          },
-          {
-            text: "argument 2",
-            question: "question 2",
-          },
-        ],
+        issues: issues.issues,
+        arguments: argues.arguments,
       },
-      gmat: ["gmat 1", "gmat 2"],
-      ielts: ["ielts 1", "ielts 2"],
+      gmat: gmat.essays,
+      ielts: [{ text: "ielts 1", question: "q1" }],
     };
   },
   methods: {
@@ -78,15 +71,11 @@ export default {
       });
       var childNodes = event.target.childNodes;
       childNodes[1].className += " selected";
-      if (this.selectedExam === "GRE") {
-        var topicChildNodes = childNodes[0].childNodes;
-        this.$emit("topicSelected", {
-          text: topicChildNodes[0].innerHTML,
-          question: topicChildNodes[1].innerHTML,
-        });
-      } else {
-        this.$emit("topicSelected", childNodes[0].innerHTML);
-      }
+      var topicChildNodes = childNodes[0].childNodes;
+      this.$emit("topicSelected", {
+        text: topicChildNodes[0].innerHTML,
+        question: topicChildNodes[1].innerHTML,
+      });
     },
     selectTab(event) {
       var tabs = document.getElementsByClassName("topic_tab");
@@ -95,9 +84,9 @@ export default {
       });
       event.target.className += " selected_tab";
       if (event.target.id == "issue_tab") {
-        this.topicsToShow = this.gre.issues;
+        this.topicsToShow = "issue";
       } else {
-        this.topicsToShow = this.gre.arguments;
+        this.topicsToShow = "argument";
       }
     },
   },
@@ -135,6 +124,8 @@ export default {
   margin: 0 10px 0 0;
   width: 80%;
   pointer-events: none;
+  text-align: left;
+  white-space: pre-line;
 }
 
 .radio_button {

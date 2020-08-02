@@ -1,45 +1,44 @@
 <template>
-    <div id="topic_options_div">
-      <div id="option_header">Topic</div>
-        <div @click="selectOption" class="topic_option" id="from_pool_option">
-          <div class="radio_btn"></div>
-          <div class="option_title">From Pool</div>
-        </div>
-        <div @click="selectOption" class="topic_option" id="random_option">
-          <div class="radio_btn active"></div>
-          <div class="option_title">Random</div>
-        </div>
-        <div @click="selectOption" class="topic_option" id="none_option">
+  <div id="topic_options_div">
+    <div id="option_header">Topic</div>
+    <div @click="selectOption" class="topic_option" id="from_pool_option">
+      <div class="radio_btn"></div>
+      <div class="option_title">From Pool</div>
+    </div>
+    <div @click="selectOption" class="topic_option" id="random_option">
+      <div class="radio_btn active"></div>
+      <div class="option_title">Random</div>
+    </div>
+    <!-- <div @click="selectOption" class="topic_option" id="none_option">
           <div class="radio_btn"></div>
           <div class="option_title">None</div>
-        </div>
-    </div>
+    </div>-->
+  </div>
 </template>
 
 <script>
-    export default {
-        name: 'TopicOptions',
-        methods: {
-          selectOption(event){
-            var radios = document.getElementsByClassName("radio_btn");
-            radios.forEach(radio => {
-              radio.className = "radio_btn";
-            });
-            event.target.firstElementChild.className += " active";
-            this.selectedOption = event.target.id.replace('_option', '');
-            this.$emit('topicOptionChanged', this.selectedOption);
-          }
-        },
-        data(){
-          return {
-            selectedOption: "random",
-          }
-        }
-    }
+export default {
+  name: "TopicOptions",
+  methods: {
+    selectOption(event) {
+      var radios = document.getElementsByClassName("radio_btn");
+      radios.forEach((radio) => {
+        radio.className = "radio_btn";
+      });
+      event.target.firstElementChild.className += " active";
+      this.selectedOption = event.target.id.replace("_option", "");
+      this.$emit("topicOptionChanged", this.selectedOption);
+    },
+  },
+  data() {
+    return {
+      selectedOption: "random",
+    };
+  },
+};
 </script>
 
 <style scoped>
-
 #topic_options_div {
   margin: 20px auto;
   background-color: white;

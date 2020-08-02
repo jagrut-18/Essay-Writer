@@ -45,6 +45,7 @@ export default {
         radio.className += " active";
         content_div.style.display = "flex";
         document.getElementById("toolbar_time_limit").style.display = "block";
+        this.$emit("changeTimeLimit", this.timeLimit);
       }
     },
   },

@@ -23,7 +23,8 @@ export default {
       text = text.replace(/(^\s*)|(\s*$)/gi, "");
       text = text.replace(/[ ]{2,}/gi, " ");
       text = text.replace(/\n /, "\n");
-      this.wordCount = text.split(" ").length;
+      this.wordCount = text.match(/\S+/g).length;
+      // this.wordCount = text.split(" ").length;
       if (text == "") {
         this.wordCount = 0;
       }
@@ -43,6 +44,8 @@ export default {
   border-radius: 7px;
   box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.05);
   width: 100%;
+  margin: auto;
+  overflow-x: hidden;
 }
 #text_area {
   font-size: 16px;

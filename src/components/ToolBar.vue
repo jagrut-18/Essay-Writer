@@ -9,9 +9,9 @@
       <div class="divider"></div>
     </div>
     <div id="download_container">
-      Save as
+      Download as
       <button class="btn_download" @click="saveDoc">DOC</button>
-      <button class="btn_download">PDF</button>
+      <button class="btn_download" @click="savePdf">PDF</button>
     </div>
   </div>
 </template>
@@ -20,6 +20,8 @@
 import ChangeFontSizeBar from "./ChangeFontSizeBar.vue";
 import { Document, Packer, Paragraph, HeadingLevel } from "docx";
 import { saveAs } from "file-saver";
+var pdfmake = require("pdfmake");
+var pdfFonts = require("pdfmake/build/vfs_fonts.js");
 export default {
   name: "ToolBar",
   props: ["wordCount"],
@@ -30,7 +32,31 @@ export default {
     changeFontSize(fontSize) {
       this.$emit("changeFontSize", fontSize);
     },
+    savePdf() {
+      pdfmake.vfs = pdfFonts.pdfMake.vfs;
+      var topicNodes = document.getElementById("main_topic").children;
+      var textArea = document.getElementById("text_area");
+      var docDefinition = {
+        content: [
+          { text: topicNodes[0].innerHTML, style: "header" },
+          { text: topicNodes[1].firstChild.innerHTML, style: "header" },
+          "\n",
+          { text: textArea.value, style: "default" },
+        ],
 
+        styles: {
+          header: {
+            color: "#2e74b5",
+            italics: true,
+            fontSize: 10,
+          },
+          default: {
+            fontSize: 10,
+          },
+        },
+      };
+      pdfmake.createPdf(docDefinition).download();
+    },
     saveDoc() {
       var topicNodes = document.getElementById("main_topic").children;
       var textArea = document.getElementById("text_area");

@@ -6,6 +6,8 @@
         <TopicOptions @topicOptionChanged="topicOptionChanged" />
         <TimeLimit @changeTimeLimit="changeTimeLimit" />
         <button @click="startWriting" id="write_btn">Start Writing</button>
+        <div class="footnote">* After clicking this button, the timer will start automatically.</div>
+        <div id="close_btn" @click="closeOverlay">Close</div>
       </div>
       <div id="topic_selector_div">
         <TopicSelector v-bind:selectedExam="selectedExam" @topicSelected="topicChanged" />
@@ -50,6 +52,10 @@ export default {
         topicSelector.style.width = screenWidth * (0.6).toString() + "px";
         topicSelector.style.opacity = "1";
       }
+    },
+    closeOverlay() {
+      var configDiv = document.getElementById("config_div");
+      configDiv.style.display = "none";
     },
     changeExam(newExam) {
       this.selectedExam = newExam;
@@ -172,5 +178,19 @@ export default {
   to {
     transform: translateX(0);
   }
+}
+
+.footnote {
+  margin-top: 10px;
+  font-size: 10px;
+}
+
+#close_btn {
+  display: none;
+  margin-top: 10px;
+  cursor: pointer;
+}
+#close_btn:hover {
+  color: red;
 }
 </style>

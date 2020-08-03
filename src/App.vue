@@ -1,11 +1,14 @@
 <template>
   <div id="app">
     <ConfigOverlay @topicChanged="changeSelectedTopic" @selectedExam="changeSelectedExam" />
-    <div id="header">Essayister</div>
     <!-- <div id="left_div">
       <div id="header">Essayister</div>
     </div>-->
     <div id="right_div">
+      <div class="top_bar">
+        <div id="header">Essay Writer</div>
+        <button @click="writeNew">Write New</button>
+      </div>
       <Topic :text="selectedTopicText" :question="selectedTopicQuestion" id="main_topic" />
       <WritingPad />
     </div>
@@ -38,6 +41,12 @@ export default {
     changeSelectedTopic(newSelectedTopic) {
       this.selectedTopicText = newSelectedTopic.text;
       this.selectedTopicQuestion = newSelectedTopic.question;
+    },
+    writeNew() {
+      var configDiv = document.getElementById("config_div");
+      configDiv.style.display = "flex";
+      var closeBtn = document.getElementById("close_btn");
+      closeBtn.style.display = "block";
     },
   },
 };
@@ -80,7 +89,7 @@ html {
   font-size: 20;
   font-weight: bold;
   color: #007969;
-  margin: 10px;
+  margin: 10px 0;
   text-align: left;
 }
 #header_bar {
@@ -94,5 +103,19 @@ html {
   border-radius: 7px;
   margin-bottom: 20px;
   padding: 0 10px;
+}
+.top_bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.top_bar button {
+  background-color: #007969;
+  color: white;
+  border-radius: 7px;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
 </style>

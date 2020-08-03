@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <ConfigOverlay @topicChanged="changeSelectedTopic" @selectedExam="changeSelectedExam" />
+    <TimeUpOverlay></TimeUpOverlay>
     <!-- <div id="left_div">
       <div id="header">Essayister</div>
     </div>-->
@@ -19,6 +20,7 @@
 import Topic from "./components/Topic.vue";
 import WritingPad from "./components/WritingPad.vue";
 import ConfigOverlay from "./components/ConfigOverlay.vue";
+import TimeUpOverlay from "./components/TimeUpOverlay.vue";
 
 export default {
   name: "App",
@@ -33,6 +35,7 @@ export default {
     Topic,
     WritingPad,
     ConfigOverlay,
+    TimeUpOverlay,
   },
   methods: {
     changeSelectedExam(newSelectedExam) {

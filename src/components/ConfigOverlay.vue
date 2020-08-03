@@ -49,6 +49,7 @@ export default {
       if (newOption == "from_pool") {
         var screenWidth = window.innerWidth;
         topicSelector.className = "animate_selector";
+        topicSelector.style.minWidth = "60%";
         topicSelector.style.width = screenWidth * (0.6).toString() + "px";
         topicSelector.style.opacity = "1";
       }
@@ -113,6 +114,8 @@ export default {
           t.minutes + " : " + String(t.seconds).padStart(2, "0");
         if (t.total <= 0) {
           clearInterval(timeinterval);
+          document.getElementById("popup1").className += " show";
+          console.log("over");
         }
       }
       update_clock();
@@ -164,7 +167,6 @@ export default {
 }
 #topic_selector_div {
   width: 0;
-  min-width: 60%;
   opacity: 0;
 }
 .animate_selector {

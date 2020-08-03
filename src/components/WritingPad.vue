@@ -18,8 +18,8 @@ export default {
       var textArea = document.getElementById("text_area");
       textArea.style.fontSize = fontSize + "px";
     },
-    textChange(data) {
-      var text = data.target.value;
+    textChange(event) {
+      var text = event.target.value;
       text = text.replace(/(^\s*)|(\s*$)/gi, "");
       text = text.replace(/[ ]{2,}/gi, " ");
       text = text.replace(/\n /, "\n");

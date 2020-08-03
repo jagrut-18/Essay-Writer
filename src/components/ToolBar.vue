@@ -3,19 +3,23 @@
     <div id="tools_container">
       <p id="wordCount">{{wordCount}}</p>
       <div class="divider"></div>
-      <p id="toolbar_time_limit">20:00</p>
+      <p id="toolbar_time_limit">30:00</p>
       <div class="divider"></div>
       <ChangeFontSizeBar @changeFontSize="changeFontSize" />
       <div class="divider"></div>
     </div>
     <div id="download_container">
-      <button id="btn_download">Save</button>
+      Save as
+      <button class="btn_download" @click="saveDoc">DOC</button>
+      <button class="btn_download">PDF</button>
     </div>
   </div>
 </template>
 
 <script>
 import ChangeFontSizeBar from "./ChangeFontSizeBar.vue";
+import { Document, Packer, Paragraph, HeadingLevel } from "docx";
+import { saveAs } from "file-saver";
 export default {
   name: "ToolBar",
   props: ["wordCount"],
@@ -25,6 +29,31 @@ export default {
   methods: {
     changeFontSize(fontSize) {
       this.$emit("changeFontSize", fontSize);
+    },
+
+    saveDoc() {
+      var topicNodes = document.getElementById("main_topic").children;
+      var textArea = document.getElementById("text_area");
+
+      event.preventDefault();
+      let doc = new Document();
+      doc.addSection({
+        children: [
+          new Paragraph({
+            text: topicNodes[0].innerHTML,
+            heading: HeadingLevel.HEADING_4,
+          }),
+          new Paragraph({
+            text: topicNodes[1].firstChild.innerHTML,
+            heading: HeadingLevel.HEADING_4,
+          }),
+          new Paragraph(""),
+          new Paragraph(textArea.value),
+        ],
+      });
+      Packer.toBlob(doc).then((blob) => {
+        saveAs(blob, "Essay.docx");
+      });
     },
   },
 };
@@ -61,15 +90,22 @@ p {
 }
 #download_container {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  min-width: fit-content;
+  padding: 0 10px;
+  font-size: 14px;
 }
-#btn_download {
+.btn_download {
   background-color: #007969;
   color: white;
-  padding: 7px 20px;
+  padding: 7px 10px;
+  margin-left: 10px;
   border: none;
   border-radius: 5px;
-  margin: 0 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
 }
 </style>

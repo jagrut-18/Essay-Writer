@@ -19,6 +19,9 @@ import SelectExamDropDown from "./SelectExamDropDown.vue";
 import TopicOptions from "./TopicOptions.vue";
 import TimeLimit from "./TimeLimit.vue";
 import TopicSelector from "./TopicSelector.vue";
+import issues from "../assets/issues.json";
+import argues from "../assets/arguments.json";
+import gmat from "../assets/gmat.json";
 export default {
   name: "ConfigOverlay",
   components: {
@@ -30,11 +33,13 @@ export default {
   data() {
     return {
       selectedExam: "GRE",
+      selectedTopicOption: "random",
       timeLimit: 30,
     };
   },
   methods: {
     topicOptionChanged(newOption) {
+      this.selectedTopicOption = newOption;
       var topicSelector = document.getElementById("topic_selector_div");
       topicSelector.style.width = "0px";
       topicSelector.style.opacity = "0";
@@ -44,10 +49,6 @@ export default {
         topicSelector.className = "animate_selector";
         topicSelector.style.width = screenWidth * (0.6).toString() + "px";
         topicSelector.style.opacity = "1";
-      } else if (newOption === "random") {
-        console.log(newOption);
-      } else if (newOption === "none") {
-        document.getElementById("main_topic").style.display = "none";
       }
     },
     changeExam(newExam) {
@@ -55,6 +56,20 @@ export default {
       this.$emit("selectedExam", this.selectedExam);
     },
     startWriting() {
+      if (this.selectedTopicOption == "random") {
+        if (this.selectedExam === "GRE") {
+          var fullGre = issues.issues.concat(argues.arguments);
+          var randomGRE = Math.floor(Math.random() * fullGre.length);
+          this.topicChanged(fullGre[randomGRE]);
+        } else if (this.selectedExam === "GMAT") {
+          var randomGMAT = Math.floor(Math.random() * gmat.essays.length);
+
+          this.topicChanged(gmat.essays[randomGMAT]);
+        } else if (this.selectedExam === "IELTS") {
+          this.topicChanged("ielts random");
+        }
+      }
+
       var configDiv = document.getElementById("config_div");
       configDiv.style.display = "none";
       if (this.timeLimit > 0) {
@@ -105,7 +120,7 @@ export default {
 #config_div {
   display: flex;
   flex-direction: column;
-  background-color: #f4fff7;
+  background-color: #00000062;
   position: fixed;
   width: 100%;
   height: 100%;
@@ -120,6 +135,9 @@ export default {
   min-width: min-content;
   display: flex;
   flex-direction: row;
+  background-color: #f4fff7;
+  padding: 50px;
+  border-radius: 10px;
 }
 #default_config_divs {
   margin-right: 5%;

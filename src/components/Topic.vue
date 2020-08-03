@@ -1,18 +1,25 @@
 <template>
   <div id="topic_container">
-    <h3>{{text}}</h3>
+    <h3>{{text ? text : initText}}</h3>
     <h3>
-      <i>{{question}}</i>
+      <i>{{question ? question : initQuestion}}</i>
     </h3>
   </div>
 </template>
 
 <script>
+import issues from "../assets/issues.json";
 export default {
   name: "Topic",
   props: {
     text: String,
     question: String,
+  },
+  data() {
+    return {
+      initText: issues.issues[0].text,
+      initQuestion: issues.issues[0].question,
+    };
   },
 };
 </script>

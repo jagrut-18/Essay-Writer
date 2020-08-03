@@ -24,6 +24,7 @@ import TopicSelector from "./TopicSelector.vue";
 import issues from "../assets/issues.json";
 import argues from "../assets/arguments.json";
 import gmat from "../assets/gmat.json";
+import ielts from "../assets/ielts.json";
 export default {
   name: "ConfigOverlay",
   components: {
@@ -70,10 +71,10 @@ export default {
           this.topicChanged(fullGre[randomGRE]);
         } else if (this.selectedExam === "GMAT") {
           var randomGMAT = Math.floor(Math.random() * gmat.essays.length);
-
           this.topicChanged(gmat.essays[randomGMAT]);
         } else if (this.selectedExam === "IELTS") {
-          this.topicChanged("ielts random");
+          var randomIELTS = Math.floor(Math.random() * ielts.essays.length);
+          this.topicChanged(ielts.essays[randomIELTS]);
         }
       }
 
@@ -115,7 +116,6 @@ export default {
         if (t.total <= 0) {
           clearInterval(timeinterval);
           document.getElementById("popup1").className += " show";
-          console.log("over");
         }
       }
       update_clock();

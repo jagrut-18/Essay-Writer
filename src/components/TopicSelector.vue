@@ -49,6 +49,7 @@
 import argues from "../assets/arguments.json";
 import issues from "../assets/issues.json";
 import gmat from "../assets/gmat.json";
+import ielts from "../assets/ielts.json";
 export default {
   name: "TopicSelector",
   props: ["selectedExam"],
@@ -60,7 +61,7 @@ export default {
         arguments: argues.arguments,
       },
       gmat: gmat.essays,
-      ielts: [{ text: "ielts 1", question: "q1" }],
+      ielts: ielts.essays,
     };
   },
   methods: {

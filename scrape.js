@@ -1,7 +1,68 @@
 const puppeteer = require("puppeteer");
 const fsLibrary = require("fs");
-
+process.setMaxListeners(0);
 //****************IELTS*************** */
+
+var links = [
+  "https://ielts-up.com/writing/task-2-art-questions.html",
+  "https://ielts-up.com/writing/task-2-education-questions.html",
+  "https://ielts-up.com/writing/task-2-environment-questions.html",
+  "https://ielts-up.com/writing/task-2-friends-family-questions.html",
+  "https://ielts-up.com/writing/task-2-government-society-questions.html",
+  "https://ielts-up.com/writing/task-2-health-questions.html",
+  "https://ielts-up.com/writing/task-2-jobs-employment-questions.html",
+  "https://ielts-up.com/writing/task-2-relationship-questions.html",
+  "https://ielts-up.com/writing/task-2-science-technology-questions.html",
+  "https://ielts-up.com/writing/task-2-sport-questions.html",
+  "https://ielts-up.com/writing/task-2-travel-tourism-questions.html",
+  "https://ielts-up.com/writing/task-2-television-media-questions.html",
+];
+
+async function scrape() {
+  var texts = [];
+  for (let d = 0; d < links.length; d++) {
+    const link = links[d];
+
+    const browser = await puppeteer.launch();
+    const page = await browser.newPage();
+    await page.goto(link);
+
+    var nodes = await page.$$("div.exam-extract");
+
+    for (let index = 0; index < nodes.length; index++) {
+      const element = nodes[index];
+      var ps = await element.$$("p");
+      var temp = [];
+      for (let i = 0; i < ps.length; i++) {
+        const el = ps[i];
+        var text = await el.getProperty("textContent");
+        var rawText = await text.jsonValue();
+        temp.push(rawText);
+      }
+      var question = "";
+      temp.slice(1, temp.length).forEach((t) => {
+        question += " " + t;
+      });
+      texts.push({
+        text: temp[0],
+        quetion: question,
+      });
+    }
+
+    browser.close();
+  }
+  fsLibrary.writeFile(
+    "ielts.txt",
+    JSON.stringify({
+      essays: texts,
+    }),
+    (error) => {
+      console.log(error);
+    }
+  );
+}
+
+scrape();
 
 //****************arguements************** */
 

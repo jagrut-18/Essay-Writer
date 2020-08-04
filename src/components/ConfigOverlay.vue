@@ -37,7 +37,7 @@ export default {
     return {
       selectedExam: "GRE",
       selectedTopicOption: "random",
-      timeLimit: 30,
+      timeLimit: 0.1,
       timeinterval: null,
     };
   },
@@ -83,6 +83,7 @@ export default {
       configDiv.style.display = "none";
       if (this.timeLimit > 0) {
         clearInterval(this.timeinterval);
+        this.timeinterval = null;
         var current_time = Date.parse(new Date());
         var deadline = new Date(current_time + this.timeLimit * 60 * 1000);
         this.run_clock("toolbar_time_limit", deadline);
@@ -116,7 +117,8 @@ export default {
         clock.innerHTML =
           t.minutes + " : " + String(t.seconds).padStart(2, "0");
         if (t.total <= 0) {
-          clearInterval(this.timeinterval);
+          clearInterval(self.timeinterval);
+          this.timeinterval = null;
           document.getElementById("popup1").className += " show";
         }
       }

@@ -38,6 +38,7 @@ export default {
       selectedExam: "GRE",
       selectedTopicOption: "random",
       timeLimit: 30,
+      timeinterval: null,
     };
   },
   methods: {
@@ -81,6 +82,7 @@ export default {
       var configDiv = document.getElementById("config_div");
       configDiv.style.display = "none";
       if (this.timeLimit > 0) {
+        clearInterval(this.timeinterval);
         var current_time = Date.parse(new Date());
         var deadline = new Date(current_time + this.timeLimit * 60 * 1000);
         this.run_clock("toolbar_time_limit", deadline);
@@ -114,12 +116,12 @@ export default {
         clock.innerHTML =
           t.minutes + " : " + String(t.seconds).padStart(2, "0");
         if (t.total <= 0) {
-          clearInterval(timeinterval);
+          clearInterval(this.timeinterval);
           document.getElementById("popup1").className += " show";
         }
       }
       update_clock();
-      var timeinterval = setInterval(update_clock, 1000);
+      this.timeinterval = setInterval(update_clock, 1000);
     },
   },
 };

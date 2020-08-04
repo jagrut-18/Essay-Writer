@@ -37,7 +37,7 @@ export default {
     return {
       selectedExam: "GRE",
       selectedTopicOption: "random",
-      timeLimit: 0.1,
+      timeLimit: 30,
       timeinterval: null,
     };
   },

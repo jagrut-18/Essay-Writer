@@ -1,7 +1,7 @@
 # Essay Writer built using Vue.js
 
 ## Project Description
-Simple and elegant website for practicing writing section for GRE, GMAT and IELTS exams.
+Simple and elegant website for practicing writing section of GRE, GMAT and IELTS exams.
 
 ### Features
 1. Time Limit
